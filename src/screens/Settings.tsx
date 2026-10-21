@@ -115,7 +115,6 @@ export default function Settings() {
 
         <section className="px-1 text-center">
           <p className="text-sm font-semibold text-ink">Zylerverse</p>
-          <p className="text-xs text-muted">Explore Ideas. Understand People.</p>
           <p className="mt-1 text-xs text-muted">All content works offline. No account, no tracking.</p>
         </section>
       </div>

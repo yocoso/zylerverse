@@ -9,10 +9,7 @@ export default function BrandHeader() {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           <BrandMark className="h-11 w-11" />
-          <div>
-            <h1 className="text-2xl font-extrabold tracking-tight">Zylerverse</h1>
-            <p className="text-sm text-muted">Explore Ideas. Understand People.</p>
-          </div>
+          <h1 className="text-2xl font-extrabold tracking-tight">Zylerverse</h1>
         </div>
         <div className="flex items-center gap-1">
           <Link to="/favorites" aria-label="Favorites" className="rounded-full p-2.5 text-muted transition hover:bg-brand-50 hover:text-rose-500">

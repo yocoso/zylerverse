@@ -27,7 +27,7 @@ function CollectionCard({ collectionId }: { collectionId: string }) {
   return (
     <div className="card overflow-hidden">
       <div className="p-5">
-        <div className="mb-3 flex items-center gap-3.5">
+        <div className="mb-4 flex items-center gap-3.5">
           <span className={`flex h-14 w-14 items-center justify-center rounded-xl2 text-3xl ${accent.soft}`}>
             {collection.icon}
           </span>
@@ -38,8 +38,6 @@ function CollectionCard({ collectionId }: { collectionId: string }) {
             </p>
           </div>
         </div>
-
-        <p className="mb-4 text-[15px] leading-relaxed text-muted">{collection.description}</p>
 
         {discussed > 0 && (
           <div className="mb-4">
