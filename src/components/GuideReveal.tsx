@@ -29,16 +29,14 @@ export default function GuideReveal({ guide, accentClass }: GuideRevealProps) {
           width={20}
           height={20}
         />
-        {open ? "Hide Discussion Guide" : "Reveal Discussion Guide"}
+        {open ? "Hide ideas" : "💡 Show ideas to talk about"}
       </button>
 
       {open && (
         <div className="mt-4 space-y-5 rounded-xl2 border border-line bg-paper/60 p-4">
           {guide.sections.map((section, i) => (
             <section key={i}>
-              <h3 className={`mb-2 text-sm font-bold uppercase tracking-wide ${accentClass}`}>
-                {section.heading}
-              </h3>
+              <h3 className={`mb-2 text-base font-bold ${accentClass}`}>{section.heading}</h3>
               <ul className="space-y-2">
                 {section.content.map((item, j) => (
                   <li key={j} className="flex gap-2 text-[15px] leading-relaxed text-ink">

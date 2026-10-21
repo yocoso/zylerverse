@@ -16,11 +16,7 @@ export default function QuestionView() {
 
   return (
     <div className="min-h-full pb-10">
-      <AppBar
-        title={collection.name}
-        subtitle="Read together, then talk it through"
-        backTo="/"
-      />
+      <AppBar title={collection.name} backTo="/" />
       {/* key forces a remount per question so the guide resets to hidden. */}
       <QuestionDetail key={question.id} question={question} />
     </div>

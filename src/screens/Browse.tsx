@@ -20,7 +20,7 @@ export default function Browse() {
 
   return (
     <div className="min-h-full">
-      <AppBar title={`Browse ${collection.name}`} subtitle={`${questions.length} questions`} backTo="/" />
+      <AppBar title={collection.name} backTo="/" />
       <QuestionBrowser
         questions={questions}
         categories={categories}

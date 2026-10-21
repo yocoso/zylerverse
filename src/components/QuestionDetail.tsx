@@ -34,14 +34,11 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
 
   return (
     <div className="space-y-5 px-4 py-5">
-      {/* Category + favorite */}
+      {/* Category + favorite (collection name already shown in the app bar) */}
       <div className="flex items-start justify-between gap-3">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className={`chip ${accent.text} ${accent.soft} border-transparent`}>
-            {collection?.icon} {collection?.name}
-          </span>
-          <span className="chip">{question.category}</span>
-        </div>
+        <span className={`chip ${accent.text} ${accent.soft} border-transparent`}>
+          {collection?.icon} {question.category}
+        </span>
         <button
           type="button"
           aria-label={favorite ? "Remove from favorites" : "Add to favorites"}
@@ -55,19 +52,19 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
 
       {/* Title + scenario + question */}
       <div className="card p-5">
-        <h2 className="text-xl font-bold leading-snug">{question.title}</h2>
+        <h2 className="text-2xl font-bold leading-snug">{question.title}</h2>
 
         {question.scenario && (
-          <p className="mt-3 rounded-xl border border-line bg-paper/70 p-3 text-[15px] leading-relaxed text-ink">
+          <p className="mt-3 rounded-xl border border-line bg-paper/70 p-3.5 text-base leading-relaxed text-ink">
             {question.scenario}
           </p>
         )}
 
-        <p className="mt-4 text-lg font-semibold leading-relaxed text-ink">{question.question}</p>
+        <p className="mt-4 text-xl font-semibold leading-relaxed text-ink">{question.question}</p>
 
         {question.followUpQuestions && question.followUpQuestions.length > 0 && (
           <div className="mt-4 border-t border-line pt-4">
-            <p className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">Follow-up questions</p>
+            <p className="mb-2 text-sm font-semibold text-muted">A few more to wonder about</p>
             <ul className="space-y-1.5">
               {question.followUpQuestions.map((f, i) => (
                 <li key={i} className="flex gap-2 text-[15px] leading-relaxed text-ink">
@@ -96,12 +93,12 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
           }
         >
           <Check width={20} height={20} />
-          {discussed ? "Discussed — tap to undo" : "Mark as Discussed"}
+          {discussed ? "Talked about it!" : "Mark as talked about"}
         </button>
 
-        <button type="button" onClick={() => goToRandom(question.id)} className="btn-primary w-full">
+        <button type="button" onClick={() => goToRandom(question.id)} className="btn-primary w-full text-lg">
           <Shuffle width={20} height={20} />
-          Next Random Question
+          Next card
         </button>
       </div>
     </div>

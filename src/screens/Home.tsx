@@ -27,40 +27,38 @@ function CollectionCard({ collectionId }: { collectionId: string }) {
   return (
     <div className="card overflow-hidden">
       <div className="p-5">
-        <div className="mb-3 flex items-center gap-3">
-          <span className={`flex h-12 w-12 items-center justify-center rounded-xl2 text-2xl ${accent.soft}`}>
+        <div className="mb-3 flex items-center gap-3.5">
+          <span className={`flex h-14 w-14 items-center justify-center rounded-xl2 text-3xl ${accent.soft}`}>
             {collection.icon}
           </span>
           <div className="min-w-0">
-            <h2 className="text-lg font-bold leading-tight">{collection.name}</h2>
+            <h2 className="text-xl font-bold leading-tight">{collection.name}</h2>
             <p className={`text-sm font-semibold ${accent.text}`}>
-              {done ? "All discussed 🎉" : `${total - discussed} to explore`}
+              {done ? "All done! 🎉" : discussed > 0 ? `${discussed} of ${total} done` : `${total} cards`}
             </p>
           </div>
         </div>
 
         <p className="mb-4 text-[15px] leading-relaxed text-muted">{collection.description}</p>
 
-        <div className="mb-4">
-          <div className="mb-1.5 flex justify-between text-xs font-medium text-muted">
-            <span>{discussed} of {total} discussed</span>
-            <span>{total > 0 ? Math.round((discussed / total) * 100) : 0}%</span>
+        {discussed > 0 && (
+          <div className="mb-4">
+            <ProgressBar value={discussed} max={total} colorClass={accent.bar} />
           </div>
-          <ProgressBar value={discussed} max={total} colorClass={accent.bar} />
-        </div>
+        )}
 
         <div className="flex gap-2">
-          <button type="button" onClick={() => goToRandom()} className="btn-primary flex-1">
+          <button type="button" onClick={() => goToRandom()} className="btn-primary flex-1 text-lg">
             <Shuffle width={20} height={20} />
-            {discussed > 0 && !done ? "Continue" : "Start"}
+            {done ? "Review" : discussed > 0 ? "Continue" : "Let's go"}
           </button>
           <Link
             to={`/c/${collectionId}/browse`}
             className="btn-secondary px-4"
-            aria-label={`Browse ${collection.name}`}
+            aria-label={`Browse all ${collection.name} cards`}
           >
             <ListIcon width={20} height={20} />
-            Browse
+            All
           </Link>
         </div>
       </div>
@@ -72,10 +70,7 @@ export default function Home() {
   return (
     <div className="min-h-full pb-10">
       <BrandHeader />
-      <main className="space-y-4 px-4 pt-4">
-        <p className="px-1 text-[15px] leading-relaxed text-muted">
-          Pick a collection to open a conversation card. No scores, no quizzes — just good talks.
-        </p>
+      <main className="space-y-4 px-4 pt-5">
         {COLLECTIONS.map((c) => (
           <CollectionCard key={c.id} collectionId={c.id} />
         ))}
