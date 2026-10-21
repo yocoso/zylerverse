@@ -4,8 +4,11 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // Zylerverse is deployed as a static PWA. HashRouter is used in-app so no
 // server rewrite rules are required for offline / deep links.
+// Served from a GitHub Pages project subpath. Override with VITE_BASE if you
+// deploy elsewhere (e.g. "/" for a root domain). HashRouter means routing works
+// regardless, but assets and the service worker need the correct base.
 export default defineConfig({
-  base: "./",
+  base: process.env.VITE_BASE ?? "/zylerverse/",
   plugins: [
     react(),
     VitePWA({
