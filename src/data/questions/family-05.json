@@ -1,0 +1,938 @@
+[
+  {
+    "id": "family-097",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "What Grown-Ups Forget",
+    "question": "What is something you think adults forget about what it feels like to be a kid?",
+    "followUpQuestions": [
+      "When did a grown-up last get this wrong with you?",
+      "If you could remind adults of one feeling from childhood, what would it be?",
+      "Parents: what part of being a kid do you honestly not remember anymore?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Many adults remember events from childhood but forget the intensity of the feelings — how huge a small disappointment could feel.",
+            "Waiting feels different at different ages: ten minutes can feel like forever to a child and like nothing to an adult.",
+            "Consider the opposite too: what might kids forget about once they grow up?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person shares one memory of a time they felt misunderstood, then the other guesses how old they were.",
+            "Look at an old photo of the parent as a child and ask what that younger version would say about today."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Noticing the gap between how big a feeling is and how small it looks from outside can help both sides be more patient."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["empathy", "memory", "childhood", "feelings"]
+  },
+  {
+    "id": "family-098",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "Reading Each Other's Moods",
+    "question": "How can you tell when the other person is upset, even before they say anything?",
+    "followUpQuestions": [
+      "What is your most obvious 'tell' that something is wrong?",
+      "Has anyone ever read your mood completely wrong?",
+      "What helps you most when you are quietly upset — space, questions, or a hug?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "People often give off signals they do not notice themselves, like going quiet, getting busy, or snapping at small things.",
+            "Sometimes the signs we read are really about us — we assume a frown is about us when it is about a tired day.",
+            "Explore the difference between wanting to be noticed and wanting to be left alone when upset."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Invent a small family 'signal' anyone can use to say 'I need a minute' without explaining.",
+            "Take turns acting out a mood with no words and letting the others guess it."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Knowing each other's quiet signals means fewer misread moments and less guessing at the dinner table."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["emotions", "communication", "moods", "empathy"]
+  },
+  {
+    "id": "family-099",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "A Day in Your Shoes",
+    "question": "If you traded places for one whole day, what do you think would surprise you most about the other person's life?",
+    "followUpQuestions": [
+      "What is the hardest part of your day that the other person might not notice?",
+      "What would you look forward to in the other person's day?",
+      "What rule would you change if you were in charge for that day?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Kids often imagine adult life as all freedom; adults often imagine kid life as all play. Both leave out the pressures.",
+            "A swapped day reveals invisible work — the planning, worrying, or remembering that happens in someone's head.",
+            "Consider what each person would miss about their own day after just a few hours away from it."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Write out each other's typical day hour by hour, then compare how accurate you were.",
+            "Swap one small real task tomorrow — a parent lets a child plan dinner, or a child lets a parent pick the game."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Imagining someone else's ordinary day is one of the quickest ways to understand what they carry that you never see."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["perspective", "empathy", "daily-life", "roles"]
+  },
+  {
+    "id": "family-100",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "The Words That Land Wrong",
+    "question": "Is there a phrase the other person says that always lands differently than they mean it?",
+    "followUpQuestions": [
+      "What do you think they actually mean when they say it?",
+      "Is there something you could both say instead?",
+      "Has a single word ever started a whole argument by accident?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Phrases like 'calm down' or 'in a minute' often carry a tone the speaker does not intend.",
+            "The same words can mean care to one person and pressure to another, depending on history and mood.",
+            "Explore how much meaning lives in tone and timing rather than the words themselves."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names one phrase they would like 'retired' from family use, and you brainstorm a replacement together.",
+            "Try saying the same sentence three ways — kind, rushed, and playful — and notice how it changes."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Naming the words that misfire gives everyone a chance to hear the intention behind them instead of just the sting."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["communication", "language", "misunderstanding", "tone"]
+  },
+  {
+    "id": "family-101",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "What You Wish I Knew",
+    "question": "What is one thing about you that you wish the other person understood better?",
+    "followUpQuestions": [
+      "Why do you think it has been hard to explain before?",
+      "What would change if they really got it?",
+      "Is there something they have tried to tell you that you are only now understanding?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Some things are hard to explain not because they are secret but because we lack the words for them.",
+            "People often assume the ones closest to them already know their inner world — and are surprised to learn they do not.",
+            "Consider the difference between being understood and being agreed with; you can have one without the other."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person finishes the sentence 'A thing I wish you knew is...' with no interruptions from the listener.",
+            "Draw or choose an object that represents the thing you wish was understood, and explain the choice."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Sometimes being understood starts simply with being given the floor to say the hard-to-say thing out loud."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["understanding", "openness", "feelings", "connection"]
+  },
+  {
+    "id": "family-102",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "Fun Means Different Things",
+    "question": "What counts as a really fun time for you, and do you think the other person agrees?",
+    "followUpQuestions": [
+      "When was the last time you had fun together in totally different ways?",
+      "What is something the other person enjoys that you do not fully get?",
+      "Could you design an afternoon that counts as fun for everyone?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Fun can mean excitement for one person and quiet calm for another — neither is more correct.",
+            "People sometimes join activities to be together even when the activity itself is not their idea of fun.",
+            "Explore whether 'boring' is really boring or just a mismatch of what each person finds interesting."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person plans a 20-minute activity they love and leads the others through it.",
+            "Make a quick list of 'fun for me' and 'fun for you' and find where the two overlap."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Understanding what each person finds fun makes shared time feel less like a compromise and more like a gift."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["fun", "preferences", "play", "togetherness"]
+  },
+  {
+    "id": "family-103",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "The Worry Behind the No",
+    "question": "When a parent says no, what worry do you think is hiding behind it?",
+    "followUpQuestions": [
+      "Parents: is there a 'no' you give that is really about fear, not the thing itself?",
+      "Kids: which 'no' feels the most unfair, and why?",
+      "Could a 'no' ever turn into a 'yes, if...' instead?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Many refusals are about safety or exhaustion rather than the specific request a child made.",
+            "Kids rarely see the invisible calculations behind a no — cost, time, risk, or a bad experience from the past.",
+            "Consider that explaining the worry behind a no does not weaken it; it often makes it easier to accept."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Pick a recent 'no' and have the parent explain the worry behind it, then the child offers one way to ease that worry.",
+            "Practice turning a flat 'no' into a 'yes, when' or 'yes, if' for one small request."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "A no is usually a cover for something a parent cares about; naming that something makes the rule feel less like a wall."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["rules", "boundaries", "worry", "negotiation"]
+  },
+  {
+    "id": "family-104",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "How You Like to Be Helped",
+    "question": "When you are struggling with something, do you want help, advice, or just company?",
+    "followUpQuestions": [
+      "How is the other person supposed to know which one you need?",
+      "Has someone ever helped in a way that made it worse, even with good intentions?",
+      "What is the kindest way someone has supported you without taking over?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Offering solutions when someone wants comfort can feel dismissive, even though it comes from love.",
+            "People's help style often matches how they themselves like to be helped — which may not match the other person.",
+            "Explore the power of asking 'do you want help or do you want me to listen?' before jumping in."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Agree on a quick code word or gesture that means 'just listen' versus 'please help.'",
+            "Replay a recent frustrating moment and try responding with the support the person actually wanted."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Good help starts with a question, not an answer — knowing what someone needs matters as much as wanting to give it."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["support", "communication", "help", "empathy"]
+  },
+  {
+    "id": "family-105",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "Braver Than You Look",
+    "question": "What is something the other person has done that you thought was braver than they realized?",
+    "followUpQuestions": [
+      "What makes something count as brave — doing it without fear, or doing it despite fear?",
+      "Is there a brave thing you did that nobody noticed?",
+      "What is something you would be braver about if you knew the other person believed in you?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Everyday courage — asking a question, admitting a mistake, trying something new — often goes unseen.",
+            "Kids and adults can both underestimate their own bravery because the fear felt bigger than the act looked.",
+            "Consider how being told 'that was brave' by someone you trust can change how you see yourself."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person points out one brave moment they witnessed in someone else at the table.",
+            "Name one small brave thing you each want to attempt this week and check back later."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Pointing out quiet bravery in each other helps both sides see strengths they tend to overlook in themselves."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["courage", "encouragement", "recognition", "growth"]
+  },
+  {
+    "id": "family-106",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "The Stuff That's Changed",
+    "question": "What is something about the other person that has changed recently that you have noticed?",
+    "followUpQuestions": [
+      "Do you think the change is for the better, or just different?",
+      "Did you notice it in yourself before someone else pointed it out?",
+      "What is one thing about you that you hope never changes?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "People living together change slowly enough that the shifts can go unnoticed until you stop to look.",
+            "Being seen changing — growing taller, braver, calmer, funnier — can feel reassuring that someone is paying attention.",
+            "Explore how parents change too; kids often assume adults are finished growing, but they are not."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names one way they have grown this year and one way the other person has.",
+            "Mark a doorframe or a note with today's date and a current favorite thing, to compare in a year."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Noticing how the people closest to us are changing keeps the relationship current instead of stuck in an old version."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["growth", "change", "observation", "time"]
+  },
+  {
+    "id": "family-107",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "Trust Looks Like This",
+    "question": "What does it look like when someone trusts you — and when do you feel most trusted?",
+    "followUpQuestions": [
+      "Is there something you wish you were trusted to do on your own?",
+      "What is a way to earn back trust after it slips?",
+      "Parents: what helps you let go a little, even when it is hard?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Trust often grows in small steps — one new responsibility at a time rather than all at once.",
+            "Being trusted can feel like a gift and a weight at the same time; both reactions are normal.",
+            "Explore the difference between trusting someone's intentions and trusting their judgment while they are still learning."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Pick one new thing the child could be trusted with this month and agree on how it will work.",
+            "Each person shares a time they felt proud to be trusted with something important."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Trust tends to grow when it is given in small, doable pieces — and when both people talk about how it is going."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["trust", "responsibility", "independence", "respect"]
+  },
+  {
+    "id": "family-108",
+    "collectionId": "family-conversations",
+    "category": "Understanding Each Other",
+    "title": "The Compliment That Stuck",
+    "question": "What is a compliment you once received that you still think about?",
+    "followUpQuestions": [
+      "What made that one stick when others faded?",
+      "Is there a compliment you have wanted to give the other person but never said?",
+      "Do you find it easier to give compliments or to receive them?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "The compliments that last are often specific and unexpected rather than general praise.",
+            "People sometimes hold onto one kind sentence for years while forgetting a hundred ordinary ones.",
+            "Explore why some people deflect compliments and how that habit forms."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Go around and give each person one specific, genuine compliment about something they did, not just who they are.",
+            "Write a compliment on a note and leave it somewhere the person will find it later."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "A well-aimed, specific compliment can outlast almost anything else we say — and most people are starving for one."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["compliments", "words", "encouragement", "memory"]
+  },
+  {
+    "id": "family-109",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "The Best Part of Morning",
+    "question": "What is the best and worst part of your usual morning routine?",
+    "followUpQuestions": [
+      "If you could change one thing about mornings, what would it be?",
+      "Are you a slow starter or an instant go in the morning?",
+      "What would a perfect, unhurried morning look like for you?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Morning friction is often about mismatched speeds — one person is slow and foggy while another is rushing.",
+            "Small rituals like a favorite breakfast or a certain song can quietly set the tone for a whole day.",
+            "Consider how much of the morning rush is habit versus actual necessity."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Design a 'dream morning' together and try one small piece of it this weekend.",
+            "Each person names one tiny change that would make mornings smoother and test it for a week."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Mornings set a mood, and even one small tweak that respects everyone's natural speed can ease the daily rush."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["routine", "mornings", "habits", "home-life"]
+  },
+  {
+    "id": "family-110",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "Tiny Daily Joys",
+    "question": "What is a small, ordinary thing that happens most days that quietly makes you happy?",
+    "followUpQuestions": [
+      "When did you first notice you liked it?",
+      "Would you miss it if it disappeared?",
+      "Is there a small joy the other person has that you never knew about?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Small daily pleasures — a warm drink, a certain light, a pet's greeting — often matter more to happiness than big events.",
+            "These joys are easy to overlook precisely because they repeat; naming them brings them back into focus.",
+            "Explore how two people in the same home can have completely different tiny joys."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "For one day, everyone notices and shares three small good moments at dinner.",
+            "Start a shared 'small joys' jar where anyone can drop a note about a nice little moment."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Paying attention to small daily joys is a quiet way to feel richer without anything in your life actually changing."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["gratitude", "joy", "everyday", "mindfulness"]
+  },
+  {
+    "id": "family-111",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "The Chore Nobody Wants",
+    "question": "What is the household chore you dislike most, and why does it bother you?",
+    "followUpQuestions": [
+      "Is it the task itself or something about how or when it happens?",
+      "Is there a chore you secretly do not mind, or even enjoy?",
+      "How could the family make the worst chore a little more bearable?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Dislike of a chore is often about the feeling it creates — boredom, mess, or feeling it is never truly finished.",
+            "One person's hated task is sometimes another person's oddly satisfying one, which opens the door to trading.",
+            "Consider how invisible chores — the ones no one notices until undone — cause the most quiet resentment."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person ranks the chores from worst to best, then look for useful swaps.",
+            "Try pairing the worst chore with music, a podcast, or doing it together to change the experience."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Talking honestly about chores turns a source of silent frustration into something the family can rearrange together."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["chores", "home-life", "routine", "teamwork"]
+  },
+  {
+    "id": "family-112",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "Your Spot in the House",
+    "question": "Is there a particular spot in your home where you feel most like yourself?",
+    "followUpQuestions": [
+      "What makes that spot special — the view, the comfort, the quiet?",
+      "Does everyone in the family have a spot, and do they ever overlap?",
+      "If you could add one thing to make it even better, what would it be?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "People unconsciously claim small territories at home — a chair, a corner, a step — that feel like theirs.",
+            "A favorite spot often has less to do with the furniture and more with the mood or memories attached to it.",
+            "Explore how the same room can feel completely different to different family members."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Take a tour where each person shows their spot and explains why it works for them.",
+            "Make one small improvement to someone's favorite spot as a surprise."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Knowing where each person feels most at ease helps the family respect those little zones of comfort."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["home", "comfort", "space", "belonging"]
+  },
+  {
+    "id": "family-113",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "The Sound of Home",
+    "question": "What sounds, smells, or noises instantly make a place feel like home to you?",
+    "followUpQuestions": [
+      "Is there a sound you would miss if it stopped?",
+      "What smell takes you straight back to a specific memory?",
+      "What does our home sound like on a good day?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Home is often stored in the senses — a kettle, a creaky stair, a certain dinner smell — more than in objects.",
+            "These background sounds become invisible until you are somewhere else and suddenly notice their absence.",
+            "Consider how smells in particular can trigger memories faster and more vividly than photos."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Close your eyes for one minute and each name every sound you can hear in the house right now.",
+            "Try to recreate a comforting smell from the past, like baking something a grandparent used to make."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The feeling of home is often built from small sensory details we rarely notice until we pause to listen for them."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["home", "senses", "memory", "atmosphere"]
+  },
+  {
+    "id": "family-114",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "Weekends Versus Weekdays",
+    "question": "How does the same day feel different depending on whether it is a weekend or a school day?",
+    "followUpQuestions": [
+      "What is the first thing you think about when you wake up on each kind of day?",
+      "Is there something good about weekdays you would miss if every day were a weekend?",
+      "What is your ideal balance of busy days and lazy days?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "The same hour can feel fast or slow depending entirely on whether there is somewhere you have to be.",
+            "Too many free days can start to feel empty, which shows how structure and freedom balance each other.",
+            "Explore how weekdays and weekends feel different for working parents versus kids in school."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Plan one small thing that makes an ordinary weekday feel a bit more special.",
+            "Protect one weekend hour where no one has anywhere to be and see what happens."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The contrast between busy and free days is part of what makes each one feel good in its own way."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["time", "routine", "weekends", "balance"]
+  },
+  {
+    "id": "family-115",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "The Meal on Repeat",
+    "question": "What is a meal or snack you could happily eat over and over without getting tired of it?",
+    "followUpQuestions": [
+      "Does it taste better because of a memory attached to it?",
+      "Is there a food the other person loves that you cannot understand?",
+      "What meal reminds you most of being together as a family?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Comfort foods are often tied to feelings and memories, not just flavor — which is why they are so personal.",
+            "Families develop their own food traditions and inside tastes that outsiders would find ordinary or strange.",
+            "Explore how a food can go from favorite to 'too much' if you eat it too often, and where that line sits."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names their 'desert island' meal and you plan to make one of them together soon.",
+            "Cook or assemble a shared favorite and talk about why it earned that status."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Favorite foods are rarely just about taste — they are small containers for comfort, memory, and belonging."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["food", "comfort", "memory", "family-traditions"]
+  },
+  {
+    "id": "family-116",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "The Thing You Always Lose",
+    "question": "What is the one thing you are always losing or searching for around the house?",
+    "followUpQuestions": [
+      "Do you have a theory about where it keeps disappearing to?",
+      "Who in the family is best at finding lost things?",
+      "What system have you tried, and did it actually work?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "We tend to lose the same kinds of things because of how our routines and attention work, not just bad luck.",
+            "Searching for lost items is a surprisingly common source of daily stress and small arguments.",
+            "Explore how different people's brains organize space — some need everything visible, others thrive in tidy drawers."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Pick the most-lost item and invent a dedicated 'home' for it together, then test it for a week.",
+            "Hold a two-minute race to tidy one surface and notice how much calmer it feels afterward."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The things we keep losing often reveal how our habits really work — and a small system beats constant searching."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["home-life", "habits", "organization", "everyday"]
+  },
+  {
+    "id": "family-117",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "Doing Nothing Together",
+    "question": "What is your favorite way to do absolutely nothing, and is it better alone or with others?",
+    "followUpQuestions": [
+      "When was the last time you had real, unplanned nothing-to-do time?",
+      "Is doing nothing relaxing for you, or does it make you restless?",
+      "Could the family schedule some protected 'do nothing' time on purpose?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Unstructured 'nothing' time is where a lot of imagination and rest happen, yet it is often the first thing cut.",
+            "Some people recharge in quiet solitude while others relax best with company nearby — both are valid.",
+            "Explore the difference between restful doing-nothing and the restless scrolling that only feels like rest."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Block out 30 minutes with no plan, no screens, and no agenda, and compare how it felt afterward.",
+            "Each person describes their ideal lazy afternoon in detail."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Protecting a little genuine downtime can do more for a family's mood than filling every hour with activities."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["rest", "downtime", "relaxation", "balance"]
+  },
+  {
+    "id": "family-118",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "The Family Catchphrase",
+    "question": "What is a word, phrase, or joke that only our family really understands?",
+    "followUpQuestions": [
+      "Where did it come from, and does everyone remember the origin the same way?",
+      "What would a stranger think if they overheard it?",
+      "Is there a nickname or saying that has stuck for years?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Families naturally invent a private language of inside jokes and sayings that becomes a kind of shared signature.",
+            "These phrases often come from a funny mistake or a small moment that nobody planned to make memorable.",
+            "Explore how using the family's private words can instantly make everyone feel like insiders again."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Make a list of your family's inside words and phrases and try to trace where each one started.",
+            "Invent one brand-new family word tonight for something you do not have a word for yet."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "A family's private language is a quiet sign of a shared history that belongs to no one else in the world."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["family-traditions", "humor", "language", "belonging"]
+  },
+  {
+    "id": "family-119",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "The Small Annoyance",
+    "question": "What is a tiny, everyday annoyance that bothers you more than it probably should?",
+    "followUpQuestions": [
+      "Why do you think such a small thing gets under your skin?",
+      "Does anyone else in the family share the same pet peeve?",
+      "Is there an annoyance you have learned to simply laugh at?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Pet peeves are often about a sense of order or fairness being disrupted in a small, repeated way.",
+            "Naming an annoyance out loud and laughing about it usually drains some of its power.",
+            "Explore how one person's harmless habit can be another person's daily irritation, with no villain involved."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person confesses one small pet peeve and the family votes on the most relatable one.",
+            "Agree on one tiny annoyance each person will try to ease for the others this week."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Sharing small annoyances with a bit of humor often does more to defuse them than quietly stewing ever could."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["pet-peeves", "humor", "everyday", "patience"]
+  },
+  {
+    "id": "family-120",
+    "collectionId": "family-conversations",
+    "category": "Everyday Life",
+    "title": "How the Day Winds Down",
+    "question": "How do you like to end your day, and what helps you feel ready for sleep?",
+    "followUpQuestions": [
+      "What is the last thing you think about before you fall asleep?",
+      "Is there an evening ritual you would never want to give up?",
+      "What makes the difference between a restful night and a restless one for you?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "How a day ends often shapes how the next one begins — a calm wind-down can carry into the morning.",
+            "People need very different things at night: some want quiet, some want to talk through the day first.",
+            "Explore how screens, lights, and last-minute tasks can quietly steal the calm from the end of a day."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person shares the high and low point of their day before bed for a week.",
+            "Experiment with one calmer evening ritual, like reading or soft music, and notice how sleep feels."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "A gentle end to the day is a small habit that quietly improves sleep, mood, and the morning that follows."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["evening", "routine", "sleep", "wind-down"]
+  }
+]

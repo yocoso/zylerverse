@@ -1,0 +1,938 @@
+[
+  {
+    "id": "family-073",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "Design a Better Backpack",
+    "question": "If you could invent a brand-new backpack for someone in our family, what problems would it solve and how would it work?",
+    "followUpQuestions": [
+      "Who would use it, and what do they carry that annoys them most?",
+      "What would you add that no backpack has ever had before?",
+      "What is one feature you would remove to keep it simple?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Think about trade-offs: a bag with more pockets is organized but heavier. How do you balance comfort against features?",
+            "Imagine designing for a very different person, like a firefighter, a toddler, or a grandparent. How does the user change the design?",
+            "Consider what 'solving a problem' means. Is the real issue the backpack, or the way we pack it?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Grab paper and sketch your invention. Label three features and explain why each one exists.",
+            "Empty one real backpack together and time how fast you can find a specific item. Then redesign the layout to beat your time."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Good design usually starts with noticing a small frustration, not with a big idea. Naming the problem clearly is often harder than inventing the fix."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["design", "invention", "creativity", "everyday-problems"]
+  },
+  {
+    "id": "family-074",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "A Fair Way to Share",
+    "question": "What is the fairest way to split one dessert between three people who all want different amounts?",
+    "followUpQuestions": [
+      "Does fair always mean equal, or can fair mean something else?",
+      "How would your answer change if one person was much hungrier?",
+      "What if the three people could not talk to each other first?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "There is a classic trick: one person cuts, the other chooses. Why does that make the cutter want to be fair?",
+            "Fairness can mean equal shares, shares based on need, or shares based on who contributed. These can all feel 'fair' for different reasons.",
+            "Sometimes the fairest solution is to change the problem, like buying a second dessert or saving a piece for later."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Try the 'I cut, you choose' method with a real snack tonight and notice how carefully the cutter works.",
+            "Invent a fair rule for choosing what movie or game the family does next, then test it this week."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Fairness is not one fixed rule. People weigh equality, need, and effort differently, and good solutions often make everyone feel heard even when shares are not identical."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["fairness", "sharing", "logic", "decisions"]
+  },
+  {
+    "id": "family-075",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "The Town With No Clocks",
+    "question": "Imagine a town where every clock stopped working forever. How would people figure out when to meet, work, and sleep?",
+    "followUpQuestions": [
+      "What signs in nature could people use instead of clocks?",
+      "How would school or work change without exact times?",
+      "What problems would be easier, and which would get harder?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "For most of history, humans used the sun, shadows, candles, and roosters to track time. What worked well and what did not?",
+            "Think about how much of our day is scheduled by exact minutes. Would a looser town be more relaxed or more chaotic?",
+            "Explore how two people agree to meet 'at sunset' versus '3:15'. What gets lost and what gets gained with precise time?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Spend one afternoon hour without checking any clock and guess when the hour is up. Compare your guesses.",
+            "Build a simple sundial outside with a stick and some stones, and check it twice during the day."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Tools like clocks quietly shape how we live together. Removing one reveals how many hidden agreements we rely on without noticing."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["thought-experiment", "time", "systems", "creativity"]
+  },
+  {
+    "id": "family-076",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "Rules for a New Game",
+    "question": "If we invented a brand-new game for our family tonight, what rules would make it fun for both the youngest and oldest player?",
+    "followUpQuestions": [
+      "How do you keep a game challenging for grown-ups but winnable for kids?",
+      "What rule would you add to stop arguments before they start?",
+      "Should luck or skill decide who wins, and why?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Many family games use 'handicaps' so stronger players start with a disadvantage. Does that feel fair or frustrating?",
+            "Games that mix luck and skill, like many card games, let anyone win on a given night. Pure-skill games reward practice. Which does our family enjoy more?",
+            "Think about what makes a rule good: it should be easy to remember, hard to cheat, and fun to follow."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Invent and name a quick game using only things on the table right now, then play one round.",
+            "After playing, hold a 'rules meeting' and change one rule to make it better."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Designing a game is really about designing an experience for different people at once. The best rules balance challenge and chance so everyone stays in the fun."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["games", "design", "fairness", "creativity"]
+  },
+  {
+    "id": "family-077",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "Lost in a New City",
+    "question": "You arrive in a city where you cannot read the language and your phone is dead. How would you find your way to a safe place?",
+    "followUpQuestions": [
+      "What clues around you could help even without words?",
+      "Who would you try to ask for help, and how?",
+      "How would you remember the way back without writing it down?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "People communicate a lot without shared words: pointing, drawing, gestures, and showing pictures. Which feels most reliable?",
+            "Landmarks like tall buildings, rivers, or unusual signs help us navigate. How do you turn your surroundings into a map in your head?",
+            "Consider the difference between finding information and finding trust. How do you decide who seems safe to approach?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Try giving directions to a room in your home using only gestures, no words.",
+            "Walk a short route together, then have someone retrace it from memory using landmarks only."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Problem solving under pressure is often about using what you have instead of what you wish you had. Calm observation usually beats panic."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["navigation", "problem-solving", "communication", "resourcefulness"]
+  },
+  {
+    "id": "family-078",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "The Unbreakable Morning",
+    "question": "Our family keeps rushing and forgetting things in the morning. How could we redesign our routine so it almost never goes wrong?",
+    "followUpQuestions": [
+      "What is the single step that causes the most delays?",
+      "What could we prepare the night before to save time?",
+      "How would we know if our new plan is actually working?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Engineers look for the 'bottleneck', the one slow step that holds up everything else. What is our morning bottleneck?",
+            "A good system does not rely on memory. How could we design the routine so forgetting becomes almost impossible?",
+            "Think about buffers: a little extra time built in to absorb surprises. Where would a buffer help most?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Draw tomorrow morning as a step-by-step flow and circle the one step to fix first.",
+            "Set up a 'launch pad' by the door tonight where everything needed for tomorrow waits in one spot."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Fixing a stressful routine is a design challenge, not a willpower problem. Small changes to the system often work better than trying harder."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["routines", "systems", "problem-solving", "everyday-problems"]
+  },
+  {
+    "id": "family-079",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "Bridge Across the Stream",
+    "question": "You need to cross a wide stream with only the materials you can find in a forest. What is your plan, and what could go wrong?",
+    "followUpQuestions": [
+      "What would you test before trusting your bridge with your full weight?",
+      "How would your plan change if you had a rope, or no rope?",
+      "Is crossing always the best idea, or could you go around?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Builders think about strength and balance. A log is strong, but a round log rolls. How do you solve two problems at once?",
+            "Testing a plan safely matters. How do you check an idea without risking a fall?",
+            "Sometimes the clever answer avoids the hard problem entirely, like walking upstream to a narrow point."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Build a tiny bridge from craft sticks and tape across two books, then test how many coins it holds.",
+            "Challenge each other to find three different ways to 'cross' an imaginary stream drawn on the floor."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Real problem solving includes predicting what could go wrong and testing safely. The first idea is rarely the only idea, or the best one."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["engineering", "problem-solving", "outdoors", "planning"]
+  },
+  {
+    "id": "family-080",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "The Honest Robot Rule",
+    "question": "If we built a helper robot for our home, what are three rules we would program so it is always helpful and never annoying?",
+    "followUpQuestions": [
+      "What is one thing the robot should never do without asking?",
+      "How would the robot decide what to do when two rules disagree?",
+      "Who in the family gets to change the robot's rules, and why?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Rules can conflict. 'Always keep the house tidy' might clash with 'never touch someone's stuff'. How does the robot choose?",
+            "A rule that sounds good can backfire. 'Always make us happy' could lead the robot to hide bad news. How do you word rules carefully?",
+            "Think about who the rules protect and who they might accidentally leave out."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Write your three robot rules on paper, then try to invent a situation where each rule causes a funny or tricky problem.",
+            "Take turns being the robot and 'obey' a family member's rule exactly and literally. Notice what gets misunderstood."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Writing rules is surprisingly hard because language is slippery and situations clash. Thinking through the exceptions is where the real thinking happens."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["logic", "robots", "rules", "ethics"]
+  },
+  {
+    "id": "family-081",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "Pack for a Mystery Trip",
+    "question": "You can bring only five items on a trip, but you do not know if you are going to a desert, a mountain, or a beach. What do you pack?",
+    "followUpQuestions": [
+      "Which item is useful in all three places?",
+      "Would you pack for the most dangerous place or the most likely one?",
+      "What would you leave behind even though it is hard to give up?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "When the future is uncertain, people look for 'flexible' tools that work in many situations. What makes an item flexible?",
+            "There is a trade-off between preparing for the worst case and the likely case. How do you decide which to bet on?",
+            "Five slots force hard choices. Explaining why one item beats another reveals what you value most."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person writes their five items secretly, then compares lists and defends their choices.",
+            "Pick an item together and brainstorm five completely different ways to use it in an emergency."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Planning under uncertainty rewards flexible choices and clear priorities. The reasons behind a pick often matter more than the pick itself."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["planning", "uncertainty", "priorities", "problem-solving"]
+  },
+  {
+    "id": "family-082",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "Catch the Sneaky Leak",
+    "question": "A puddle keeps appearing under the sink but you never see water dripping. How would you investigate like a detective to find the cause?",
+    "followUpQuestions": [
+      "What would you check first, and why that?",
+      "How could you test one idea at a time instead of guessing randomly?",
+      "What if the puddle is not from a leak at all?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Detectives and scientists both narrow down causes by testing one thing at a time. Why is changing many things at once confusing?",
+            "Evidence can mislead. The puddle might come from condensation, a spill, or a slow drip somewhere else. How do you stay open-minded?",
+            "A clever trick is to dry everything and lay down paper, then watch where the wetness returns first."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Play '20 questions' but about a hidden mystery object, practicing how to narrow down possibilities.",
+            "Set up a tiny 'experiment': hide a cause for a small mystery, like a magnet moving a paperclip, and let others deduce it."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Finding the real cause means testing ideas one at a time and resisting the urge to grab the first explanation. Good questions beat lucky guesses."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["deduction", "investigation", "logic", "problem-solving"]
+  },
+  {
+    "id": "family-083",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "The Line That Never Moves",
+    "question": "Imagine a shop where the checkout line is always painfully slow. How would you redesign it so people get through faster and happier?",
+    "followUpQuestions": [
+      "Is the problem the speed, the fairness, or just the waiting feeling?",
+      "How do some places make waiting feel shorter even when it is not?",
+      "What change would help the workers, not just the customers?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "A single line feeding many cashiers is usually faster and fairer than many separate lines. Why does that surprise people?",
+            "Some airports moved the baggage claim farther away so people walk instead of stand still, and complaints dropped. Perceived wait matters, not just real wait.",
+            "Think about where the slowdown really happens: the scanning, the paying, the bagging, or the deciding."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Next time you wait in a line, observe the bottleneck together and whisper your redesign ideas.",
+            "Set up a pretend 'store' at home and race two different line designs to see which clears faster."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Improving a system means separating the real problem from how it feels, and remembering everyone involved. The obvious fix is not always the best one."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["systems", "design", "efficiency", "everyday-problems"]
+  },
+  {
+    "id": "family-084",
+    "collectionId": "family-conversations",
+    "category": "Problem Solving and Logic",
+    "title": "One Rule for Everyone",
+    "question": "If our family could make just one new rule that everyone must follow, what rule would solve the most problems with the least trouble?",
+    "followUpQuestions": [
+      "What makes a rule easy to follow versus easy to ignore?",
+      "How would we handle the times the rule does not quite fit?",
+      "Should the rule apply to grown-ups exactly the same as kids?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "A powerful rule covers many situations without needing a long list of exceptions. Can you find one like that?",
+            "Rules work best when they are clear and everyone agrees they are fair. What happens when only some people helped make it?",
+            "Consider the difference between a rule that controls behavior and one that builds a habit people actually want."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person proposes one rule, then the family votes and tries the winner for a week.",
+            "After trying it, hold a review and decide whether to keep, change, or drop the rule based on what happened."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The best rules are simple, fair, and made together. Testing a rule and being willing to revise it often works better than arguing about it in theory."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["rules", "fairness", "decisions", "family-life"]
+  },
+  {
+    "id": "family-085",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "Your Future Ordinary Day",
+    "question": "Picture a normal day in your life ten years from now. Not the big moments, just an ordinary Tuesday. What does it look like?",
+    "followUpQuestions": [
+      "Where do you wake up, and who is around you?",
+      "What part of that day are you most looking forward to?",
+      "What would make even an ordinary day feel good?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "We often dream about big achievements but spend most of life in ordinary days. What does a good ordinary day tell you about what you really want?",
+            "Compare each family member's imagined Tuesday. What surprises you about what others look forward to?",
+            "Think about how much of the picture is about things you own versus people, feelings, and routines."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person draws or describes their future Tuesday in three small scenes: morning, afternoon, evening.",
+            "Write one sentence describing today's ordinary day, seal it away, and plan to read it again next year."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Dreams are not only about peaks and prizes. Imagining the quiet everyday moments can reveal what truly matters to each of us."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["future", "imagination", "everyday-life", "reflection"]
+  },
+  {
+    "id": "family-086",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "A Job That Doesn't Exist Yet",
+    "question": "Lots of jobs today did not exist when grandparents were young. What is a brand-new job you think the future will need?",
+    "followUpQuestions": [
+      "What problem in the world would your new job help solve?",
+      "What would someone need to learn to be great at it?",
+      "Would you want to do this job yourself, or just invent it?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Many of today's jobs, like app designer or wind-farm technician, were unimaginable decades ago. What hints at the jobs coming next?",
+            "New jobs usually appear where new problems or new tools do. What tools or problems are growing right now?",
+            "Some future jobs may be about caring and connection, not technology. Which kind appeals to you more?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Invent a job title and design a pretend business card for it, including the slogan.",
+            "Interview each other as if applying for the new job, asking what skills you would bring."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The future of work is unwritten, and imagining new roles helps us feel less anxious and more curious about change."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["future", "careers", "invention", "imagination"]
+  },
+  {
+    "id": "family-087",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "The World in One Wish",
+    "question": "If you could change one thing about the whole world by the time you grow up, what would you choose and why?",
+    "followUpQuestions": [
+      "Who would benefit most from your change?",
+      "Could your change accidentally cause a new problem?",
+      "What small step could someone take toward it right now?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Big wishes often have ripple effects. If you ended all homework, or all traffic, what else would change because of it?",
+            "There is a difference between fixing a symptom and fixing a cause. Which is your wish aiming at?",
+            "Explore whether the change is something a person could help build, or something that depends on everyone together."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person states their wish, then the family brainstorms one tiny real action connected to it.",
+            "Draw a 'ripple map' showing three things that might change if your wish came true."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Thinking about a better world is powerful, especially when paired with a sense of what small steps could move toward it."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["future", "values", "change", "world"]
+  },
+  {
+    "id": "family-088",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "Skill You'd Love to Master",
+    "question": "If you could become truly excellent at one skill over the next few years, which would you pick, and what would you do with it?",
+    "followUpQuestions": [
+      "Why does that skill call to you more than others?",
+      "What is the boring or hard part you would have to push through?",
+      "Who could help you get started this month?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Mastery usually takes years of small, unglamorous practice. Does the skill you chose still excite you knowing that?",
+            "Some skills open doors to many others, like reading, coding, or persuasion. Did you pick a 'key' skill or a specific passion?",
+            "Compare what the adults wish they had mastered young. Why is now a good time to start?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person spends fifteen minutes this week trying the very first step of their chosen skill and reports back.",
+            "Make a simple 'skill ladder' with five rungs from beginner to expert, and mark where you stand today."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Dreams of mastery become real through steady practice. Naming the skill is the easy part; the fun is in starting the first rung."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["future", "growth", "skills", "goals"]
+  },
+  {
+    "id": "family-089",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "Letter to Future You",
+    "question": "If you could send one message to yourself twenty years from now, what would you want to say or ask?",
+    "followUpQuestions": [
+      "What do you hope has stayed the same about you?",
+      "What question would you most want your future self to answer?",
+      "What advice would you give, just in case you forget it?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Writing to your future self reveals what you believe will last and what you fear might change. What did you choose to protect?",
+            "Grown-ups can answer in reverse: what would they tell their younger self? Compare hopes going forward and backward.",
+            "Think about whether you wrote mostly questions or mostly promises, and what that says about you."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person writes a short letter to their future self, seals it, and marks a date years ahead to open it.",
+            "Record a one-minute voice message to the future on a phone and save it somewhere safe."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Imagining a conversation with your future self connects who you are now to who you are becoming, without needing all the answers today."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["future", "reflection", "self", "hopes"]
+  },
+  {
+    "id": "family-090",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "If Travel Were Free",
+    "question": "Imagine getting anywhere in the world took no money and only one hour. Where would you go first, and how would life change?",
+    "followUpQuestions": [
+      "Would you visit a place or a person first?",
+      "How might where people live change if travel were that easy?",
+      "Is there anywhere you would choose to stay even then?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "If distance stopped mattering, would families spread out across the world or cluster together? What would you choose?",
+            "Easy travel might make the planet feel smaller and friendlier, or crowded and less special. Which do you expect?",
+            "Think about what still ties us to one place: community, memories, belonging. Does convenience change those?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Spin a globe or point at a map and plan a pretend one-hour trip for tomorrow, listing what you would do.",
+            "Each person names the one place they would visit weekly if it were free, and explains the draw."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Fantasies about the future often reveal what we value now. Even with the whole world open, our choices say a lot about where we feel at home."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["future", "travel", "imagination", "what-if"]
+  },
+  {
+    "id": "family-091",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "The Family Time Capsule",
+    "question": "If we buried a time capsule to be opened in thirty years, what would we put inside to show who we are right now?",
+    "followUpQuestions": [
+      "What object says the most about our family today?",
+      "What would you want the future openers to understand about us?",
+      "What do you think will seem funny or old-fashioned by then?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Choosing capsule items forces you to decide what truly represents 'now'. Is it technology, a photo, or a handwritten note?",
+            "Imagine the people opening it. They might be your own future children. What do you hope they feel?",
+            "Some things we think are permanent will look dated, and some everyday items will feel precious. Which is which?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Actually gather a small box of items and a group letter, then store it somewhere with a 'do not open until' date.",
+            "Each person adds one prediction about the future on a slip of paper to tuck inside."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Choosing what to preserve helps us notice what we treasure about this moment, before it quietly becomes the past."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["future", "memory", "family", "reflection"]
+  },
+  {
+    "id": "family-092",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "A Dream Bigger Than You",
+    "question": "What is a dream you have that would take more than one lifetime or more than one person to finish?",
+    "followUpQuestions": [
+      "Why does a dream that big still feel worth starting?",
+      "Who would you need beside you to work toward it?",
+      "What is the very first piece someone could begin now?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Great cathedrals, forests, and discoveries were often started by people who knew they would never see them finished. What makes that worthwhile?",
+            "Some dreams are relay races, passed from one generation to the next. Who passed a dream to you, or might you pass one on?",
+            "A huge dream can still be broken into small, doable first steps. What would step one look like?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Plant a seed or small tree together and talk about who might enjoy it long after.",
+            "Sketch a 'generations plan' showing a big dream and what each generation might contribute."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Some of the most meaningful dreams reach beyond ourselves. Starting them is an act of hope, even when we will not see the ending."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["future", "legacy", "dreams", "meaning"]
+  },
+  {
+    "id": "family-093",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "Choosing a Future Problem",
+    "question": "If you could spend your grown-up life helping solve one big problem in the world, which would you choose to work on?",
+    "followUpQuestions": [
+      "What draws you to that problem over the others?",
+      "What kind of work on it would suit you: inventing, caring, leading, or building?",
+      "How could someone your age start caring about it now?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Big problems need many kinds of helpers: scientists, artists, organizers, and listeners. Where would you fit best?",
+            "Caring about a problem is different from knowing how to solve it. How do people find their role in something huge?",
+            "Discuss how the problems adults worried about as kids have changed, and which ones are new."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person picks a problem and names one person, real or imagined, who inspires them to care about it.",
+            "Choose a small local version of a big problem and do one tiny helpful act this week."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Finding a problem you care about can give direction to a life. There are many ways to help, and no single right role."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["future", "purpose", "values", "careers"]
+  },
+  {
+    "id": "family-094",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "The Home You'd Build",
+    "question": "If you could design any home to grow old or grow up in, what would it have, and where would it be?",
+    "followUpQuestions": [
+      "What is the one room or space you could not live without?",
+      "Would you build near people, nature, a city, or somewhere else?",
+      "What would make it feel like home and not just a house?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "A dream home reveals your values: some want quiet, some want gathering spaces, some want adventure out the door. What does yours say?",
+            "Compare what kids and adults prioritize. Is it the fun features or the feeling of the place?",
+            "Think about what makes a house become a home. Is it the building, or the people and habits inside it?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person sketches a floor plan or dream room, then give a pretend tour to the family.",
+            "Combine everyone's favorite feature into one imaginary family home and name it."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Imagining a dream home is really imagining a dream life. The details we choose hint at the feelings and people we want around us."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["future", "home", "imagination", "values"]
+  },
+  {
+    "id": "family-095",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "Fifty Years of Progress",
+    "question": "What is one thing you hope humans figure out in the next fifty years that seems impossible today?",
+    "followUpQuestions": [
+      "Why do you think it feels impossible right now?",
+      "What would it change about daily life if we solved it?",
+      "What things people once thought impossible are normal today?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Flying, instant messages across the world, and walking on the moon all once seemed impossible. What made them happen?",
+            "Progress can solve old problems and create new ones at the same time. What would you watch out for with your breakthrough?",
+            "Some hopes are about technology, others about how people treat each other. Which kind of progress matters more to you?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person makes one bold fifty-year prediction and rates how confident they feel from one to ten.",
+            "Ask the oldest family member what seemed impossible in their youth but is normal now."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The impossible has a habit of becoming ordinary. Hoping boldly about the future is a way of taking part in building it."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["future", "progress", "technology", "hope"]
+  },
+  {
+    "id": "family-096",
+    "collectionId": "family-conversations",
+    "category": "Dreams and Future",
+    "title": "What You'd Be Remembered For",
+    "question": "Far in the future, if people told a story about you, what would you most want that story to be about?",
+    "followUpQuestions": [
+      "Would it be about something you made, did, or how you treated people?",
+      "What small choices today point toward that story?",
+      "Does it matter if the story is told by many people or just a few?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Being remembered is not only about fame. A story told by a few people who loved you can mean more than one known by strangers.",
+            "The story people tell is built from everyday actions, not just big moments. Which small habits shape yours?",
+            "Compare what adults hope to be remembered for with what kids imagine. Notice where they overlap."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person finishes the sentence 'I hope people remember me as someone who...' and shares it.",
+            "Think of someone you admire and name the one story you would tell about them, then notice what it reveals."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Thinking about how we might be remembered gently points us toward the kind of person we want to be, starting with today's choices."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["future", "legacy", "values", "reflection"]
+  }
+]

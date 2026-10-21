@@ -1,0 +1,914 @@
+[
+  {
+    "id": "family-025",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Fly or Turn Invisible",
+    "question": "Would you rather be able to fly whenever you want, or turn invisible whenever you want? Why?",
+    "followUpQuestions": [
+      "What is the first thing you would do with your power?",
+      "Which power would cause more trouble if you used it too much?",
+      "Would you tell anyone you had the power, or keep it secret?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Flying is loud and public; invisibility is quiet and private. People often pick the one that matches how they like to move through the world.",
+            "Think about limits: if flying meant you still felt cold and tired, or invisibility also made your clothes disappear, would your answer change?"
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Act out one minute of your day as if you had your chosen power. The others guess what you are doing.",
+            "Draw a quick map of your neighborhood and mark three places each power would be most useful."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The power someone picks often says something about whether they crave freedom and attention, or calm and privacy."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["imagination", "superpowers", "choices", "fun"]
+  },
+  {
+    "id": "family-026",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Always Summer or Always Winter",
+    "question": "Would you rather live somewhere that is always warm and sunny, or always cold and snowy? Why?",
+    "followUpQuestions": [
+      "What would you miss most about the season you gave up?",
+      "How would your favorite activities change?",
+      "Would your answer be different if you had to stay there forever?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Warm places sound easy, but some people find they miss cozy nights, hot drinks, and the excitement of snow.",
+            "Weather shapes food, clothes, and even how neighbors spend time together. A permanent season would quietly reshape everyday life."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names one food, one outfit, and one game that belongs to their chosen season.",
+            "Plan an imaginary perfect day in your dream climate from morning to night."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Part of what we love about any season is the contrast with the others, which is worth noticing when we wish one away."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["seasons", "nature", "preferences", "lifestyle"]
+  },
+  {
+    "id": "family-027",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Read Minds or Predict Future",
+    "question": "Would you rather be able to read anyone's thoughts right now, or know one thing that will happen tomorrow? Why?",
+    "followUpQuestions": [
+      "Would reading minds make friendships easier or harder?",
+      "If you knew something about tomorrow, would you try to change it?",
+      "Which power would you want to turn off sometimes?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Reading minds sounds helpful, but you might hear thoughts people never meant to share, including about you.",
+            "Knowing the future is tempting, yet a surprise is sometimes the best part of a day. Consider whether certainty is always a gift."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Play a quick round of guessing: each person writes down a number, then others try to 'read' it. Talk about how it felt to guess versus know.",
+            "Predict one small thing that will happen tomorrow and check if you were right."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Both powers trade away mystery, and this question reveals how much comfort each person finds in not knowing everything."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["superpowers", "future", "thinking", "choices"]
+  },
+  {
+    "id": "family-028",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Giant Pet or Tiny Pet",
+    "question": "Would you rather have a pet as big as a house, or a pet small enough to ride in your pocket? Why?",
+    "followUpQuestions": [
+      "What animal would you choose for each size?",
+      "What would be the hardest part of caring for your pet?",
+      "Where would your giant or tiny pet sleep?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "A giant pet could protect you and carry you around, but feeding and housing it would be a huge job.",
+            "A pocket pet goes everywhere with you, yet it could get lost in a second. Size changes the whole relationship."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Design your pet together: name it, draw it, and list three rules for keeping it happy.",
+            "Measure a room and imagine where a house-sized pet would actually fit."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Caring for something, big or small, always comes with responsibilities we do not always picture at first."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["animals", "pets", "imagination", "fun"]
+  },
+  {
+    "id": "family-029",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Speak Every Language or Instrument",
+    "question": "Would you rather instantly speak every language in the world, or instantly play every musical instrument? Why?",
+    "followUpQuestions": [
+      "Who is the first person you would talk to, or the first song you would play?",
+      "Which skill would change your life more?",
+      "Is it better to connect with words or with music?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Speaking every language opens up almost any conversation anywhere you go.",
+            "Playing every instrument lets you express feelings that words sometimes cannot reach. Both are ways of being understood."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person says 'hello' in any other language they know, or hums a tune the others try to name.",
+            "Pick a country and imagine one conversation you would want to have there."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Language and music are both bridges to other people, and this choice shows which kind of connection someone values most."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["skills", "languages", "music", "connection"]
+  },
+  {
+    "id": "family-030",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Never Tired or Never Hungry",
+    "question": "Would you rather never feel tired again, or never feel hungry again? Why?",
+    "followUpQuestions": [
+      "What would you do with all the extra time or energy?",
+      "Would you miss sleeping or eating?",
+      "Which feeling is harder to deal with when it comes at a bad time?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Never feeling tired means more hours to live, but you might miss the comfort of a cozy rest.",
+            "Never feeling hungry removes a daily worry, yet meals are also when families gather and talk. Consider what you would lose, not just gain."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "List three things your family does together that involve food or rest. Would they survive your choice?",
+            "Imagine your perfect day with endless energy and plan it hour by hour."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Needs like sleep and food can feel like interruptions, but they also create some of our favorite shared moments."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["choices", "everyday", "body", "thinking"]
+  },
+  {
+    "id": "family-031",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Explore Space or Deep Ocean",
+    "question": "Would you rather be the first to explore a faraway planet, or the deepest part of the ocean? Why?",
+    "followUpQuestions": [
+      "What do you imagine you would find there?",
+      "Which journey would feel scarier?",
+      "Would you want to go alone or bring the whole family?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Space is vast and silent, full of stars no one has seen up close.",
+            "The deep ocean is right here on Earth, yet much of it is still a mystery with creatures stranger than fiction."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Draw a creature you think might live in your chosen place and give it a name.",
+            "Pack an imaginary explorer's bag: each person adds one item and explains why."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Curiosity pulls different people in different directions, and there is no wrong frontier to be amazed by."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["adventure", "space", "ocean", "exploration"]
+  },
+  {
+    "id": "family-032",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Pause Time or Rewind Time",
+    "question": "Would you rather be able to pause time for everyone but you, or rewind time by five minutes whenever you want? Why?",
+    "followUpQuestions": [
+      "When would you most want to use your power?",
+      "Could pausing or rewinding ever get you into trouble?",
+      "Would you use it for big moments or small everyday ones?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Pausing time gives you a private break when the world is too busy, but everyone else stays frozen and alone-feeling for you.",
+            "Rewinding lets you fix small mistakes, yet you might be tempted to redo things endlessly instead of moving on."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person describes one moment from this week they would pause or rewind, and why.",
+            "Freeze like statues for ten seconds, then talk about what you noticed while 'time stopped'."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Wishing to control time usually points to a moment we loved too much to leave, or wished had gone differently."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["time", "superpowers", "thinking", "choices"]
+  },
+  {
+    "id": "family-033",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Famous or Secretly Powerful",
+    "question": "Would you rather be famous and known by everyone, or secretly have the power to help people without anyone knowing it was you? Why?",
+    "followUpQuestions": [
+      "What would be the best and worst part of being famous?",
+      "Why might someone want to help without getting credit?",
+      "Which choice would make you happier in ten years?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Fame brings attention and opportunities, but also a loss of privacy and quiet.",
+            "Secret good deeds bring a private kind of pride. Consider whether the reward of helping needs to be seen by others to count."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Do one small secret kind act this week and tell no one who it was from.",
+            "Each person names a famous job they would want and one they would never want."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "This question gently explores why we do good things, and whether recognition changes their value."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["values", "kindness", "choices", "identity"]
+  },
+  {
+    "id": "family-034",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Live in a Book or Movie",
+    "question": "Would you rather live inside your favorite book, or inside your favorite movie? Why?",
+    "followUpQuestions": [
+      "Which character would you want to meet first?",
+      "Would you want to be a main character or watch from the side?",
+      "What would be dangerous about living in that story?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "A book world lets your imagination fill the gaps, so it might look different to each person inside it.",
+            "A movie world is vivid and fixed, exactly as shown. Think about whether you prefer to imagine the details or see them."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names a story world and the first thing they would do upon arriving.",
+            "Invent a short new scene that takes place in one chosen world."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The stories we would step into reveal the adventures and feelings we secretly wish were part of our real lives."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["stories", "imagination", "books", "movies"]
+  },
+  {
+    "id": "family-035",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Best at One or Good at All",
+    "question": "Would you rather be the absolute best in the world at one thing, or pretty good at almost everything? Why?",
+    "followUpQuestions": [
+      "What would you choose to be the best at?",
+      "Is it lonely to be the only best at something?",
+      "Which kind of person do you enjoy being around more?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Being the best at one thing brings deep mastery and maybe fame, but your whole identity might rest on it.",
+            "Being good at many things makes you flexible and curious, though you might never feel like a true expert at any of it."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person lists one thing they are good at and one thing they would love to be great at.",
+            "Pick a small skill and practice it together for five minutes to feel what 'getting better' is like."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "There is more than one way to feel accomplished, and depth and variety each bring their own kind of satisfaction."
+          ]
+        }
+      ]
+    },
+    "difficulty": "advanced",
+    "tags": ["skills", "growth", "choices", "identity"]
+  },
+  {
+    "id": "family-036",
+    "collectionId": "family-conversations",
+    "category": "Would You Rather?",
+    "title": "Talk to Animals or Plants",
+    "question": "Would you rather be able to talk with animals, or talk with plants and trees? Why?",
+    "followUpQuestions": [
+      "What is the first question you would ask?",
+      "What do you think a tree would say if it could talk?",
+      "Which conversation would surprise you more?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Animals move and react, so talking with them might feel like meeting new friends with big personalities.",
+            "Plants and trees live slowly and for a very long time. A tree might remember things from before you were born."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Go to a pet, a bird, or a plant and imagine out loud what it might be thinking right now.",
+            "Write one question you would ask the oldest tree you can think of."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Imagining other living things as listeners can make us a little more gentle and curious about the world around us."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["nature", "animals", "imagination", "wonder"]
+  },
+  {
+    "id": "family-037",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Time We Laughed Hard",
+    "question": "Can you remember a time our family laughed so hard it was tough to stop? What happened?",
+    "followUpQuestions": [
+      "Who usually makes everyone laugh the most?",
+      "What makes something funny to us but maybe not to other people?",
+      "Is there a joke or moment we still bring up today?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Parents can share a funny moment from before the kids were born or when they were babies, which kids often love to hear.",
+            "Some of the funniest moments come from small mistakes or accidents. Notice how laughter often follows something going a little wrong."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Try to recreate or re-tell one funny moment in your own words and see if it still makes you laugh.",
+            "Start a 'funny moments' list on paper or your phone to add to over time."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Shared laughter is one of the strongest glues in a family, and remembering it together brings a little of that joy back."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["laughter", "memories", "fun", "bonding"]
+  },
+  {
+    "id": "family-038",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "The House You Grew Up In",
+    "question": "What do you remember about a home you lived in when you were younger? Parents, what was your childhood home like?",
+    "followUpQuestions": [
+      "What was your favorite room or hiding spot?",
+      "What sounds or smells do you connect with that place?",
+      "What is one thing you wish you could see again from back then?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Parents can describe how different homes were when they were young, from the furniture to the neighborhood games outside.",
+            "Kids and parents might remember the same home very differently depending on how tall they were or how old they felt."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person draws a quick floor plan of a home they remember and points out their favorite spot.",
+            "Describe one room in enough detail that others can picture standing inside it."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The places we lived hold feelings as much as furniture, and sharing them lets us see where each other's stories began."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["memories", "home", "childhood", "storytelling"]
+  },
+  {
+    "id": "family-039",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Trip We Took Together",
+    "question": "Think of a trip or outing our family has taken. What is the part you remember most clearly?",
+    "followUpQuestions": [
+      "Did anything go wrong that we now laugh about?",
+      "What would you want to do again, and what would you skip?",
+      "Where would you love for us to go next?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "The trip does not have to be big. A day at a park or a visit to relatives counts just as much as a long vacation.",
+            "People often remember the unexpected moments, like a wrong turn or a surprise meal, more than the planned highlights."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names their single best moment and single funniest mishap from any trip.",
+            "Sketch a simple 'dream trip' postcard showing where you would go together next."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "What we carry from a trip is rarely the schedule, but the small surprises and the people we shared them with."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["travel", "memories", "adventure", "bonding"]
+  },
+  {
+    "id": "family-040",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "When You Were Little",
+    "question": "Parents, what is a story about me when I was very little that I might not remember? And what do I remember from being small?",
+    "followUpQuestions": [
+      "What was my favorite toy or thing to do back then?",
+      "What surprised you most about me as a baby or toddler?",
+      "What did I used to say that the family still repeats?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Kids are fascinated by stories of themselves they cannot remember, especially mispronounced words or funny habits.",
+            "Parents can share how they felt in those early days, not just what happened, giving kids a window into being loved."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Look at an old photo or video together if one is handy, and talk about what was happening.",
+            "Kids can try to guess which stories are true and which the parent is playfully exaggerating."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Being told the story of your own beginnings is a quiet gift, and telling it lets parents relive moments they treasure."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["memories", "childhood", "storytelling", "bonding"]
+  },
+  {
+    "id": "family-041",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Meal We Still Talk About",
+    "question": "Is there a meal or a dish that reminds you of our family or of being younger? What makes it special?",
+    "followUpQuestions": [
+      "Who made it, and do we still eat it today?",
+      "What does the smell or taste of it remind you of?",
+      "Is there a recipe we should pass on so it is never lost?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Parents might recall a dish a grandparent made that is tied to a whole era of their childhood.",
+            "Food memories are powerful because taste and smell connect directly to feelings. A single bite can bring back a whole day."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Pick one remembered dish and plan to cook or buy it together sometime this month.",
+            "Each person describes a food smell that instantly takes them somewhere in their memory."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Family recipes are stories you can taste, and keeping them alive keeps the people who made them close too."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["food", "memories", "traditions", "family"]
+  },
+  {
+    "id": "family-042",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Challenge We Got Through",
+    "question": "Can you think of a hard time our family faced and got through together? How did we manage it?",
+    "followUpQuestions": [
+      "What helped us the most during that time?",
+      "Who stepped up in a way you did not expect?",
+      "What did we learn that still helps us today?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "The challenge can be small, like a move, a sick pet, or a tough school year. It does not need to be dramatic to matter.",
+            "Parents can model that hard times are normal and survivable, which reassures kids facing their own worries."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names one strength they think the family has when things get tough.",
+            "Make a short 'we can handle it' list of people and habits that help you through hard days."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Looking back at a hard time you survived together is proof of resilience, without needing to pretend it was easy."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["resilience", "memories", "challenges", "bonding"]
+  },
+  {
+    "id": "family-043",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Tradition We Keep",
+    "question": "What is something our family does the same way every year or every week that feels special? How did it start?",
+    "followUpQuestions": [
+      "Do you know where this tradition came from?",
+      "What would feel missing if we stopped doing it?",
+      "Is there a new tradition you would like us to start?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Traditions can be tiny, like a certain Saturday breakfast or a bedtime phrase, not just holidays.",
+            "Parents can share traditions from their own childhood, some kept and some let go, and why."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Invent one brand-new small tradition tonight and decide how often you will do it.",
+            "Vote on which existing family habit everyone would most want to protect."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Traditions are how a family quietly says 'this is who we are,' and even inventing a new one is a way of belonging."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["traditions", "memories", "family", "belonging"]
+  },
+  {
+    "id": "family-044",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "The Day Something Changed",
+    "question": "Is there a day you remember when something big changed in our family, like a new home, a new baby, or a new school? What was it like?",
+    "followUpQuestions": [
+      "How did you feel before and after the change?",
+      "What turned out better than you expected?",
+      "What helped you get used to the new normal?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Big changes often feel scary at first and fine later. Comparing the before-feeling to now can be reassuring.",
+            "Parents and kids may remember the same change very differently, which makes for an honest, interesting conversation."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person describes the change in one word for 'then' and one word for 'now'.",
+            "Draw a simple before-and-after picture of what shifted."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Noticing how a past change worked out can make future changes feel less frightening for everyone."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["change", "memories", "growth", "family"]
+  },
+  {
+    "id": "family-045",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Gift You Never Forgot",
+    "question": "What is a gift you once gave or received that you still remember? What made it stick with you?",
+    "followUpQuestions": [
+      "Was it the gift itself or the moment that made it special?",
+      "Have you ever loved a homemade or free gift more than an expensive one?",
+      "What is a gift you would love to give someone someday?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "The most memorable gifts are often not the priciest, but the ones that showed someone really understood you.",
+            "Parents can recall a gift from their own childhood, and how differently they value gifts now versus then."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person describes the best gift they ever gave, not received, and how the other person reacted.",
+            "Brainstorm one free or handmade gift you could give someone this month."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "What we remember about gifts is usually the feeling of being known or of making someone's face light up."
+          ]
+        }
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["gifts", "memories", "kindness", "gratitude"]
+  },
+  {
+    "id": "family-046",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "Who You Looked Up To",
+    "question": "When you were growing up, who was someone you looked up to or wanted to be like? What did you admire about them?",
+    "followUpQuestions": [
+      "Was it someone in the family, a teacher, or someone famous?",
+      "Did you ever try to copy something they did?",
+      "Who do you look up to now?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Parents sharing their childhood heroes helps kids see their parents as kids once too, with dreams and role models.",
+            "Who we admire often reveals the qualities we most value, like kindness, bravery, or humor."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names one quality they admired in their hero and whether they have any of it themselves.",
+            "Draw or describe your hero doing the thing you admired most."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "The people we look up to quietly shape who we try to become, across every generation of a family."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["role models", "memories", "values", "childhood"]
+  },
+  {
+    "id": "family-047",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Small Moment That Mattered",
+    "question": "Can you think of an ordinary, quiet moment with our family that somehow felt really good? What was happening?",
+    "followUpQuestions": [
+      "Why do you think that simple moment stuck with you?",
+      "Do big events or small moments stay in your memory more?",
+      "When was the last time you felt that same feeling?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Some of our warmest memories are ordinary, like a car ride, a lazy morning, or doing dishes together.",
+            "This question gently teaches that happiness is often hiding in small, unremarkable moments we almost overlook."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Each person names one small good moment from just the past week.",
+            "Agree to notice and share one tiny good moment at dinner tomorrow."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Learning to treasure small moments means a family has far more good memories than only the big occasions suggest."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["gratitude", "memories", "mindfulness", "bonding"]
+  },
+  {
+    "id": "family-048",
+    "collectionId": "family-conversations",
+    "category": "Family Memories",
+    "title": "A Story From Before Me",
+    "question": "Parents, what is a story from your life before our family began that you would like us to know? Kids, what do you most want to ask about?",
+    "followUpQuestions": [
+      "What were you like at my age?",
+      "What is something you did back then that would surprise me?",
+      "Is there a part of your past you wish you could show me?"
+    ],
+    "guide": {
+      "sections": [
+        {
+          "heading": "Interesting Angles",
+          "content": [
+            "Kids rarely imagine their parents as young people with their own adventures, mistakes, and dreams.",
+            "Parents can choose a story that shows they were once uncertain or silly too, which helps kids feel understood."
+          ]
+        },
+        {
+          "heading": "Family Activity",
+          "content": [
+            "Kids prepare three questions about the parent's younger years and ask them interview-style.",
+            "If a photo from that time exists, look at it together and let the parent narrate the scene."
+          ]
+        },
+        {
+          "heading": "Conversation Takeaway",
+          "content": [
+            "Passing down the stories that came before them gives children a deeper sense of where they come from and who they belong to."
+          ]
+        }
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["storytelling", "memories", "heritage", "bonding"]
+  }
+]
