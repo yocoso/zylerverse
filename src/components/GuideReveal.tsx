@@ -1,54 +1,33 @@
-import { useState } from "react";
 import type { Guide } from "../types/question";
-import { ChevronDown } from "./icons";
 
-interface GuideRevealProps {
+interface GuidePanelProps {
   guide: Guide;
   /** Tailwind text color class for the accent used on headings. */
   accentClass: string;
 }
 
 /**
- * The discussion guide, hidden by default. Expands inline below the question
- * and can be collapsed again. Because QuestionDetail is remounted per question
- * (keyed by id), the guide always starts hidden on a new question.
+ * The discussion-guide panel. Purely presentational — the parent
+ * (QuestionDetail) owns the show/hide state via a small icon toggle, and only
+ * mounts this when the guide is revealed. Because QuestionDetail is remounted
+ * per question, the guide always starts hidden on a new question.
  */
-export default function GuideReveal({ guide, accentClass }: GuideRevealProps) {
-  const [open, setOpen] = useState(false);
-
+export default function GuidePanel({ guide, accentClass }: GuidePanelProps) {
   return (
-    <div>
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        className="btn-secondary w-full"
-      >
-        <ChevronDown
-          className={`transition-transform ${open ? "rotate-180" : ""}`}
-          width={20}
-          height={20}
-        />
-        {open ? "Hide ideas" : "💡 Show ideas to talk about"}
-      </button>
-
-      {open && (
-        <div className="mt-4 space-y-5 rounded-xl2 border border-line bg-paper/60 p-4">
-          {guide.sections.map((section, i) => (
-            <section key={i}>
-              <h3 className={`mb-2 text-base font-bold ${accentClass}`}>{section.heading}</h3>
-              <ul className="space-y-2">
-                {section.content.map((item, j) => (
-                  <li key={j} className="flex gap-2 text-[15px] leading-relaxed text-ink">
-                    <span className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${accentClass.replace("text-", "bg-")}`} />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ))}
-        </div>
-      )}
+    <div className="space-y-5 rounded-xl2 border border-line bg-paper/60 p-4">
+      {guide.sections.map((section, i) => (
+        <section key={i}>
+          <h3 className={`mb-2 text-base font-bold ${accentClass}`}>{section.heading}</h3>
+          <ul className="space-y-2">
+            {section.content.map((item, j) => (
+              <li key={j} className="flex gap-2 text-[15px] leading-relaxed text-ink">
+                <span className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${accentClass.replace("text-", "bg-")}`} />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </div>
   );
 }

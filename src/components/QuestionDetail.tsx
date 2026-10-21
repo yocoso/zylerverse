@@ -1,15 +1,47 @@
+import { useState } from "react";
+import type { ReactNode } from "react";
 import type { Question } from "../types/question";
 import { getCollection } from "../data/collections";
 import { useProgress } from "../hooks/ProgressContext";
 import { useCollectionNav } from "../hooks/useCollectionNav";
-import GuideReveal from "./GuideReveal";
-import { Check, Heart, Shuffle } from "./icons";
+import GuidePanel from "./GuideReveal";
+import { Bulb, Check, Heart, Shuffle } from "./icons";
 
 const ACCENT: Record<string, { text: string; bg: string; border: string; soft: string }> = {
   social: { text: "text-social", bg: "bg-social", border: "border-social", soft: "bg-social/10" },
   family: { text: "text-family", bg: "bg-family", border: "border-family", soft: "bg-family/10" },
   brand: { text: "text-brand-600", bg: "bg-brand-500", border: "border-brand-500", soft: "bg-brand-50" }
 };
+
+/** Small, optional icon-only toggle (show ideas, mark as talked about). */
+function IconToggle({
+  active,
+  activeClass,
+  label,
+  onClick,
+  children
+}: {
+  active: boolean;
+  activeClass: string;
+  label: string;
+  onClick: () => void;
+  children: ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      aria-label={label}
+      title={label}
+      className={`flex h-11 w-11 items-center justify-center rounded-xl2 border transition active:scale-95 ${
+        active ? activeClass : "border-line bg-card text-muted hover:text-ink"
+      }`}
+    >
+      {children}
+    </button>
+  );
+}
 
 interface QuestionDetailProps {
   question: Question;
@@ -28,27 +60,18 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
   const accent = ACCENT[collection?.accent ?? "brand"];
   const { isDiscussed, toggleDiscussed, isFavorite, toggleFavorite } = useProgress();
   const { goToRandom } = useCollectionNav(question.collectionId);
+  const [showGuide, setShowGuide] = useState(false);
 
   const discussed = isDiscussed(question.id);
   const favorite = isFavorite(question.id);
+  const activeAccent = `${accent.border} ${accent.soft} ${accent.text}`;
 
   return (
     <div className="space-y-5 px-4 py-5">
-      {/* Category + favorite (collection name already shown in the app bar) */}
-      <div className="flex items-start justify-between gap-3">
-        <span className={`chip ${accent.text} ${accent.soft} border-transparent`}>
-          {collection?.icon} {question.category}
-        </span>
-        <button
-          type="button"
-          aria-label={favorite ? "Remove from favorites" : "Add to favorites"}
-          aria-pressed={favorite}
-          onClick={() => toggleFavorite(question.id)}
-          className={`rounded-full p-2 transition ${favorite ? "text-rose-500" : "text-muted hover:text-rose-400"}`}
-        >
-          <Heart filled={favorite} width={24} height={24} />
-        </button>
-      </div>
+      {/* Category (collection name already shown in the app bar) */}
+      <span className={`chip ${accent.text} ${accent.soft} border-transparent`}>
+        {collection?.icon} {question.category}
+      </span>
 
       {/* Title + scenario + question */}
       <div className="card p-5">
@@ -77,30 +100,42 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
         )}
       </div>
 
-      {/* Guide */}
-      <GuideReveal guide={question.guide} accentClass={accent.text} />
-
-      {/* Status + navigation */}
-      <div className="space-y-3">
-        <button
-          type="button"
+      {/* Optional small actions: ideas, mark as talked about, favorite */}
+      <div className="flex items-center gap-2.5">
+        <IconToggle
+          active={showGuide}
+          activeClass={activeAccent}
+          label={showGuide ? "Hide ideas" : "Show ideas to talk about"}
+          onClick={() => setShowGuide((v) => !v)}
+        >
+          <Bulb width={20} height={20} />
+        </IconToggle>
+        <IconToggle
+          active={discussed}
+          activeClass={activeAccent}
+          label={discussed ? "Talked about it — tap to undo" : "Mark as talked about"}
           onClick={() => toggleDiscussed(question.id)}
-          aria-pressed={discussed}
-          className={
-            discussed
-              ? `btn w-full ${accent.soft} ${accent.text} border ${accent.border}`
-              : "btn-secondary w-full"
-          }
         >
           <Check width={20} height={20} />
-          {discussed ? "Talked about it!" : "Mark as talked about"}
-        </button>
-
-        <button type="button" onClick={() => goToRandom(question.id)} className="btn-primary w-full text-lg">
-          <Shuffle width={20} height={20} />
-          Next card
-        </button>
+        </IconToggle>
+        <IconToggle
+          active={favorite}
+          activeClass="border-rose-200 bg-rose-50 text-rose-500"
+          label={favorite ? "Remove from favorites" : "Add to favorites"}
+          onClick={() => toggleFavorite(question.id)}
+        >
+          <Heart filled={favorite} width={20} height={20} />
+        </IconToggle>
       </div>
+
+      {/* Guide (shown only when the ideas toggle is on) */}
+      {showGuide && <GuidePanel guide={question.guide} accentClass={accent.text} />}
+
+      {/* Primary action */}
+      <button type="button" onClick={() => goToRandom(question.id)} className="btn-primary w-full text-lg">
+        <Shuffle width={20} height={20} />
+        Next card
+      </button>
     </div>
   );
 }
