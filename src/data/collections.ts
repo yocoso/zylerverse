@@ -5,12 +5,12 @@ import type { CollectionConfig } from "../types/question";
 // per collection anywhere else.
 export const COLLECTIONS: CollectionConfig[] = [
   {
-    id: "social-thinking",
-    name: "Social Thinking",
+    id: "what-would-you-do",
+    name: "What Would You Do?",
     description:
-      "Realistic situations that build perspective-taking, empathy, and thoughtful social reasoning.",
+      "Everyday situations — with your little sister, at school, and around the house — where you pick what you'd do.",
     accent: "social",
-    icon: "🧭",
+    icon: "🤔",
     promptKind: "scenario"
   },
   {

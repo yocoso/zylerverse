@@ -1,0 +1,442 @@
+[
+  {
+    "id": "wwyd-021",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "The Copy-My-Homework Ask",
+    "scenario": "Your best friend forgot to do the math homework that's due in five minutes. They lean over and whisper, \"Just let me copy yours, quick, nobody will know.\" The teacher is at the front of the room.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Let them copy it fast", "outcome": "Your friend feels saved right now, but if the teacher notices the matching answers you both get in trouble, and your friend still hasn't learned the math."},
+      {"id": "b", "text": "Say no, but offer to help them tell the teacher the truth", "outcome": "It feels awkward to refuse a friend, but you protect yourself and your friend learns that owning a mistake is survivable."},
+      {"id": "c", "text": "Quickly show them how to do one problem so they can try", "outcome": "You can't finish all of it in time, but your friend gets a real head start and you didn't hand over your work."}
+    ],
+    "followUpQuestions": ["Is helping a friend the same as doing their work for them?", "What would you want a friend to do if you forgot your homework?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A real friend asking you to take a risk for them is still asking you to take a risk.", "Helping someone understand is different from giving them the answers.", "Saying no can be kind, especially if you offer another way to help."]},
+        {"heading": "Key takeaway", "content": ["You can care about a friend and still keep a boundary that protects you both."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["homework", "honesty", "friendship", "boundaries"]
+  },
+  {
+    "id": "wwyd-022",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Left Out at Recess",
+    "scenario": "At recess, the kids you usually play with have already picked teams and started a game without you. When you walk over, nobody waves you in. You're standing on the edge of the field.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Ask out loud, \"Can I join the next round?\"", "outcome": "Speaking up feels risky, but often people just didn't notice you, and asking directly gives them a clear chance to say yes."},
+      {"id": "b", "text": "Go find someone else to hang out with", "outcome": "You might miss this game, but you could discover another friend or activity you like even more."},
+      {"id": "c", "text": "Stand nearby and wait to be invited", "outcome": "Sometimes someone notices and calls you in, but you might also wait a long time feeling left out while nothing changes."}
+    ],
+    "followUpQuestions": ["Why do you think they didn't invite you this time?", "How does it feel to ask to join versus waiting?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Being left out often isn't on purpose; people get caught up in their game.", "Asking to join is a brave skill that gets easier with practice.", "Having more than one group of friends means one bad recess isn't the whole day."]},
+        {"heading": "Key takeaway", "content": ["You're allowed to ask for what you want, and you're allowed to walk toward people who want you there."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["recess", "friendship", "belonging", "speaking-up"]
+  },
+  {
+    "id": "wwyd-023",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "The Group Project Slacker",
+    "scenario": "You're doing a group project with three other kids. One of them, Dev, hasn't done any of his part and spends the time messing around. The project is due tomorrow and his section is still blank.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Just do Dev's part yourself so it's finished", "outcome": "The project gets done, but you did extra work and Dev learns that someone will always cover for him."},
+      {"id": "b", "text": "Talk to Dev directly and ask what he can finish tonight", "outcome": "It might feel confrontational, but giving him a clear, specific ask is the fairest chance for him to step up before you involve anyone else."},
+      {"id": "c", "text": "Tell the teacher the group is stuck", "outcome": "Some kids will call it tattling, but teachers would rather know early, and it can protect your grade from one person's choices."}
+    ],
+    "followUpQuestions": ["What's the difference between tattling and asking for help?", "Is it fair for everyone to get the same grade if the work wasn't equal?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Quietly doing everyone's work feels responsible but teaches others they can coast.", "Talking to the person first is usually fairer than going straight over their head.", "It's okay to protect your own effort from being wasted."]},
+        {"heading": "Key takeaway", "content": ["Fairness sometimes means having an uncomfortable conversation instead of silently taking on more."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["group-work", "fairness", "responsibility", "speaking-up"]
+  },
+  {
+    "id": "wwyd-024",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "A Classmate Gets Teased",
+    "scenario": "A few kids are laughing at Maya because she tripped and dropped her lunch tray in front of everyone. Maya's face is red and she looks like she might cry. Some kids are still giggling.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Go help Maya pick up her tray", "outcome": "You can't stop everyone laughing, but standing next to her tells Maya and the room that she's not alone."},
+      {"id": "b", "text": "Say \"That could happen to anyone, leave her alone\"", "outcome": "Speaking up takes guts and might draw attention to you, but it often makes the teasing stop faster than anything else."},
+      {"id": "c", "text": "Stay out of it so you don't get teased too", "outcome": "You stay safe for now, but Maya feels like nobody cared, and the teasers learn no one will push back."}
+    ],
+    "followUpQuestions": ["What would you want someone to do if it happened to you?", "Why is it hard to speak up when other people are laughing?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["You don't have to give a big speech; small kindness like helping pick up is powerful.", "One person pushing back often gives braver permission to others.", "It's normal to feel scared of becoming the next target; naming that fear helps."]},
+        {"heading": "Key takeaway", "content": ["You can't control a crowd, but you can decide to be the one person who makes someone feel less alone."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["teasing", "kindness", "courage", "empathy"]
+  },
+  {
+    "id": "wwyd-025",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "You Forgot Your Assignment",
+    "scenario": "The teacher asks everyone to pass their reading worksheet forward. Your heart sinks because you completely forgot to do it, and it's still blank in your folder. The papers are coming toward you.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Tell the teacher the truth after class", "outcome": "It's embarrassing to admit, but teachers usually respect honesty and may give you a chance to turn it in late."},
+      {"id": "b", "text": "Say your dog ate it or you lost it", "outcome": "A quick excuse might work once, but if it unravels you lose trust, which is harder to earn back than a missed worksheet."},
+      {"id": "c", "text": "Say nothing and hope it isn't noticed", "outcome": "You might slip by today, but the missing grade usually shows up later, now with no explanation from you."}
+    ],
+    "followUpQuestions": ["Why might a teacher react better to the truth than an excuse?", "What could help you remember homework next time?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Everyone forgets things sometimes; it's not proof you're a bad student.", "Honesty early usually costs less than a lie that gets discovered.", "Owning a mistake and asking for a fix is a grown-up skill."]},
+        {"heading": "Key takeaway", "content": ["Telling the truth about a mistake protects something more valuable than one grade: your trustworthiness."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["homework", "honesty", "mistakes", "responsibility"]
+  },
+  {
+    "id": "wwyd-026",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "The Substitute's New Rules",
+    "scenario": "Your regular teacher is out, and the substitute says there's no assigned seating today and you can sit anywhere. But your real teacher has a strict seating chart. Some kids are already switching seats and getting loud.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Stay in your assigned seat", "outcome": "You keep things calm for yourself, and you won't have to re-explain anything when your real teacher returns."},
+      {"id": "b", "text": "Politely tell the sub about the seating chart", "outcome": "It might feel like being a goody-goody, but the sub may thank you, and it saves confusion for the whole class."},
+      {"id": "c", "text": "Move seats like everyone else since the sub allowed it", "outcome": "The sub did give permission, so it's not really breaking a rule, but things might get chaotic and your teacher may be surprised later."}
+    ],
+    "followUpQuestions": ["When a rule changes, how do you decide which rule to follow?", "Is it okay to do something just because an adult said you could?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Different adults sometimes give different rules, and that's genuinely confusing.", "Sharing useful information with a sub is helping, not showing off.", "You can follow a new rule and still think about whether it will cause problems later."]},
+        {"heading": "Key takeaway", "content": ["When rules conflict, it's smart to pause and think about which choice you'd feel good explaining later."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["rules", "substitute", "judgment", "honesty"]
+  },
+  {
+    "id": "wwyd-027",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Blamed for Something You Didn't Do",
+    "scenario": "Someone knocked over a shelf of books and made a mess. The teacher turns around, sees you standing closest to it, and says, \"Did you do this?\" But it wasn't you, it was a kid who already walked away.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Calmly say, \"It wasn't me, but I'll help clean it up\"", "outcome": "You defend yourself honestly and show you're reasonable, which makes it easier for the teacher to believe you."},
+      {"id": "b", "text": "Name the kid who actually did it", "outcome": "The truth matters and the teacher deserves facts, though the other kid may be upset, so how you say it matters."},
+      {"id": "c", "text": "Just apologize so the teacher stops being upset", "outcome": "The moment ends faster, but you take blame you don't deserve, and the real cause never gets sorted out."}
+    ],
+    "followUpQuestions": ["Why might someone apologize for something they didn't do?", "How can you stand up for yourself without sounding angry?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Staying calm makes your side of the story more believable than getting defensive.", "Telling the truth about who did it isn't the same as tattling to get someone in trouble.", "You don't have to accept blame just to make an adult's frustration go away."]},
+        {"heading": "Key takeaway", "content": ["Standing up for the truth about yourself is fair, and you can do it calmly and respectfully."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["fairness", "honesty", "self-advocacy", "conflict"]
+  },
+  {
+    "id": "wwyd-028",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "You Made a Mistake Out Loud",
+    "scenario": "The teacher calls on you to answer a question in front of the whole class. You say your answer confidently, but it's wrong, and a couple of kids snicker. Your cheeks feel hot.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Laugh it off and say, \"Oops, let me try again\"", "outcome": "Showing you're okay with being wrong takes the power out of the snickering and keeps you in the game."},
+      {"id": "b", "text": "Shut down and refuse to answer anything else", "outcome": "It protects you from more mistakes, but you also miss chances to learn, and the embarrassment sticks around longer."},
+      {"id": "c", "text": "Ask the teacher to explain why it's wrong", "outcome": "It feels vulnerable, but you actually learn the right answer, and classmates often respect someone who keeps trying."}
+    ],
+    "followUpQuestions": ["Why do you think getting something wrong feels so embarrassing?", "Can you think of a time a mistake helped you learn?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Being wrong out loud is how everyone learns; even experts guess wrong sometimes.", "A few kids laughing usually forget about it in minutes, even if it feels huge now.", "How you handle a mistake teaches people how to treat you."]},
+        {"heading": "Key takeaway", "content": ["Mistakes aren't proof you're not smart; they're just part of figuring things out."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["mistakes", "confidence", "learning", "resilience"]
+  },
+  {
+    "id": "wwyd-029",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "The New Kid Sitting Alone",
+    "scenario": "There's a new kid at school who just started this week. At lunch, they're sitting by themselves at the end of a table while everyone else talks in their groups. They keep looking down at their tray.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Go sit with them and introduce yourself", "outcome": "It might feel awkward for a minute, but you could make someone's hard week much better and maybe gain a friend."},
+      {"id": "b", "text": "Invite them to come sit with your group", "outcome": "This brings them into a bigger circle at once, though some new kids feel shy with a whole group staring at them."},
+      {"id": "c", "text": "Wait and see if they make friends on their own", "outcome": "They might find their own people eventually, but they could also spend several lonely lunches wishing someone had said hi."}
+    ],
+    "followUpQuestions": ["What would feel most welcoming if you were the new kid?", "Is it easier to meet one person or a whole group first?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Being new is one of the hardest things; a single friendly face changes everything.", "You can read the new kid's comfort level and choose one-on-one or a group.", "A small hello costs you little and can mean a lot to them."]},
+        {"heading": "Key takeaway", "content": ["Noticing someone who's alone and choosing to reach out is one of the kindest things you can do."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["new-kid", "kindness", "inclusion", "empathy"]
+  },
+  {
+    "id": "wwyd-030",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "A Friend Wants to Sneak Out",
+    "scenario": "During indoor recess, your friend whispers, \"Let's sneak down to the gym when the teacher isn't looking, it'll be fun.\" You're not supposed to leave the classroom without permission. Your friend is already standing up.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Say, \"I'm staying, but we can do something here\"", "outcome": "Your friend might be disappointed, but you avoid trouble and offer a way to still have fun together."},
+      {"id": "b", "text": "Go along so your friend isn't mad at you", "outcome": "You keep the peace for now, but if you get caught you both face consequences, and you ignored your own gut."},
+      {"id": "c", "text": "Tell your friend why it's a bad idea and try to talk them out of it", "outcome": "They may or may not listen, but a true friend can hear your honest opinion without the friendship breaking."}
+    ],
+    "followUpQuestions": ["Does saying no to a friend mean you're not a good friend?", "What makes it hard to disagree with someone you like?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A friend who gets mad that you won't break a rule is asking a lot of you.", "You can turn down the plan without turning down the person.", "Your gut feeling of 'this seems risky' is worth listening to."]},
+        {"heading": "Key takeaway", "content": ["Real friends can handle hearing no; you don't have to break rules to keep them."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["rules", "peer-pressure", "friendship", "boundaries"]
+  },
+  {
+    "id": "wwyd-031",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "You Found Money on the Floor",
+    "scenario": "Walking to class, you spot a ten-dollar bill lying on the hallway floor. Nobody is around, and you don't know whose it is. It would be enough to buy that snack you've wanted from the vending machine.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Turn it in to the office or a teacher", "outcome": "You might not get to keep it, but the person who lost it has a real chance of getting it back, and you did the honest thing."},
+      {"id": "b", "text": "Ask nearby classmates if anyone dropped it", "outcome": "You could reunite it with its owner quickly, though someone dishonest might claim it isn't really theirs."},
+      {"id": "c", "text": "Keep it since no one saw you find it", "outcome": "You get the snack, but somebody else is now short ten dollars, and 'no one saw' isn't the same as 'it's okay.'"}
+    ],
+    "followUpQuestions": ["How would you feel if you were the one who lost the money?", "Does 'nobody saw me' change whether something is right?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Found isn't the same as yours; the money still belongs to someone.", "Doing the right thing when no one is watching is what honesty really means.", "Ten dollars can matter a lot to the person who lost it."]},
+        {"heading": "Key takeaway", "content": ["Being honest isn't about being watched; it's about who you want to be when nobody is."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["honesty", "found-item", "integrity", "fairness"]
+  },
+  {
+    "id": "wwyd-032",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "You Didn't Understand the Lesson",
+    "scenario": "The teacher just finished explaining a new math idea and asks, \"Does everyone get it?\" Most kids nod. But you're totally lost and don't understand any of it. The teacher is about to move on.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Raise your hand and say you're confused", "outcome": "It feels risky to admit it, but chances are other kids are lost too and are grateful you asked."},
+      {"id": "b", "text": "Ask the teacher quietly after class", "outcome": "You avoid the spotlight and still get help, though you miss the part of the lesson that builds on this one."},
+      {"id": "c", "text": "Pretend you understand and figure it out later", "outcome": "You stay comfortable now, but the next lessons build on this one, so being lost can snowball."}
+    ],
+    "followUpQuestions": ["Why do kids nod even when they don't understand?", "Who could you ask for help if you're confused?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Nodding along to look smart often leaves you more confused later.", "Asking a question is a sign you're paying attention, not that you're slow.", "You can choose between asking now in public or privately after; both beat staying lost."]},
+        {"heading": "Key takeaway", "content": ["Saying 'I don't get it yet' is one of the smartest things a learner can do."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["learning", "asking-for-help", "confidence", "classroom"]
+  },
+  {
+    "id": "wwyd-033",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Disagreeing With a Friend",
+    "scenario": "You and your friend are planning your science project together. You think you should build a volcano, but your friend insists on doing a plant experiment and won't budge. You both start to get frustrated.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Give in and do your friend's idea to avoid a fight", "outcome": "The argument ends, but if you always give in you might feel resentful, and your friend never hears your good ideas."},
+      {"id": "b", "text": "Suggest combining both ideas somehow", "outcome": "It takes creativity and might not fit perfectly, but you both feel heard and the project could turn out more interesting."},
+      {"id": "c", "text": "Each explain why you like your idea, then pick together", "outcome": "It takes more time and patience, but deciding fairly makes the teamwork stronger even if your idea isn't chosen."}
+    ],
+    "followUpQuestions": ["Is it okay to disagree with a friend?", "How can you share your opinion without it turning into a fight?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Disagreeing doesn't mean you're being a bad friend.", "Always giving in isn't kindness; it can quietly build up resentment.", "The goal is a fair decision, not just a fast one."]},
+        {"heading": "Key takeaway", "content": ["Good friends can disagree, listen to each other, and still find a way forward together."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["disagreement", "friendship", "compromise", "communication"]
+  },
+  {
+    "id": "wwyd-034",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Caught Passing a Note",
+    "scenario": "Your friend passes you a funny note during class and you're reading it when the teacher looks up and says, \"What's that? Bring it here.\" The note has a joke about another classmate in it that could hurt their feelings.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Hand over the note honestly", "outcome": "It's embarrassing, and your friend may be annoyed, but hiding or lying about it usually makes things worse."},
+      {"id": "b", "text": "Say it's nothing and try to hide the note", "outcome": "You might protect your friend for a second, but if the teacher sees through it, you both look worse for hiding it."},
+      {"id": "c", "text": "Hand it over and quietly tell your friend later the joke wasn't kind", "outcome": "You deal with the moment honestly and also let your friend know the note crossed a line, which a good friend can do."}
+    ],
+    "followUpQuestions": ["Were you responsible for the note even though you didn't write it?", "How do you tell a friend when a joke goes too far?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Reading and passing a mean note makes you part of it, even if you didn't start it.", "Honesty with the teacher usually ends the situation faster than hiding.", "You can be loyal to a friend and still tell them when something isn't okay."]},
+        {"heading": "Key takeaway", "content": ["Being a good friend sometimes means being honest with them, not just covering for them."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["honesty", "friendship", "kindness", "classroom"]
+  },
+  {
+    "id": "wwyd-035",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Someone Copied Your Work",
+    "scenario": "You worked really hard on your art project. At the showcase, you notice a classmate's project looks almost exactly like yours, and they're getting lots of compliments for the idea you came up with first.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Talk to the classmate privately about it", "outcome": "It's a hard conversation, but giving them a chance to explain or own it is fairer than assuming the worst out loud."},
+      {"id": "b", "text": "Tell the teacher you think your work was copied", "outcome": "The teacher may help sort it out, though it's good to be sure, since similar ideas can sometimes happen by accident."},
+      {"id": "c", "text": "Say nothing and feel upset about it", "outcome": "You avoid conflict, but the frustration sits with you, and nobody knows the idea was originally yours."}
+    ],
+    "followUpQuestions": ["Why does it bother us when someone takes credit for our ideas?", "Could two people come up with the same idea on their own?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["It's okay to feel upset when your effort gets taken; that feeling makes sense.", "Talking to the person first is usually fairer than assuming they stole it.", "Sometimes similar ideas are a coincidence, so staying curious helps."]},
+        {"heading": "Key takeaway", "content": ["You can stand up for your own work calmly, and asking questions first is braver than staying silent or accusing."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["fairness", "self-advocacy", "conflict", "honesty"]
+  },
+  {
+    "id": "wwyd-036",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Dared to Break a Rule",
+    "scenario": "A group of kids is daring each other to run across the 'wet floor, do not enter' area the janitor just mopped. They turn to you and say, \"Your turn, unless you're too scared.\" Everyone is watching.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Say \"Nah, I'm good\" and walk around it", "outcome": "Some kids might tease you for a second, but you stay safe, and most of them forget about it quickly."},
+      {"id": "b", "text": "Do the dare so you don't look scared", "outcome": "You might get a laugh, but a wet floor is slippery for a reason, and you could get hurt or in trouble."},
+      {"id": "c", "text": "Make a joke and change the subject", "outcome": "You dodge the dare without a big confrontation, which can be an easy way to say no without making it a standoff."}
+    ],
+    "followUpQuestions": ["Why do dares feel so hard to turn down?", "Is being called 'scared' a reason to do something risky?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A dare is designed to make saying no feel impossible, but you still can.", "Being called scared is just words; getting hurt is real.", "Humor and walking away are both totally valid ways to opt out."]},
+        {"heading": "Key takeaway", "content": ["Brave isn't doing whatever you're dared to do; brave is deciding for yourself."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["peer-pressure", "safety", "boundaries", "courage"]
+  },
+  {
+    "id": "wwyd-037",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "The Test Answers Left Out",
+    "scenario": "The teacher stepped out of the room and accidentally left the answer key for tomorrow's test on her desk, right where you can see it. A couple of kids are leaning in to peek. One whispers, \"Quick, look!\"",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Look away and don't read it", "outcome": "You won't have the answers handed to you, but you'll actually know what you studied, and you won't be carrying a secret."},
+      {"id": "b", "text": "Tell the teacher the key was left out when she returns", "outcome": "It might feel awkward, but it keeps the test fair for everyone, and the teacher will likely appreciate the heads-up."},
+      {"id": "c", "text": "Take a quick peek like the others", "outcome": "You might score higher, but the grade won't reflect what you know, and cheating tends to feel worse than a lower score."}
+    ],
+    "followUpQuestions": ["Who does cheating on a test actually hurt?", "What's the point of a test if you already have the answers?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A grade from cheating isn't really yours; it doesn't tell you what you learned.", "Fairness means the test measures everyone the same way.", "Doing the honest thing when others don't is hard but worth it."]},
+        {"heading": "Key takeaway", "content": ["A score you earned honestly is worth more than a higher one you didn't."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["honesty", "cheating", "integrity", "tests"]
+  },
+  {
+    "id": "wwyd-038",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Your Friend Is Being Mean",
+    "scenario": "Your good friend has started making fun of a quieter kid in your class, calling them names to get laughs. Today your friend looks at you, expecting you to laugh along too. The quiet kid is right there.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Don't laugh and change the subject", "outcome": "You avoid joining in without a big confrontation, and your friend may notice the joke isn't landing."},
+      {"id": "b", "text": "Tell your friend privately it's not cool", "outcome": "It's uncomfortable to challenge a friend, but real friends can hear 'that's not okay' and sometimes it helps them stop."},
+      {"id": "c", "text": "Laugh along so your friend doesn't turn on you", "outcome": "You stay on your friend's good side, but the quiet kid gets hurt more, and you might not like how it feels."}
+    ],
+    "followUpQuestions": ["What does it mean to be a good friend when your friend is being unkind?", "Can you disagree with a friend's behavior and still like them?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Not laughing is itself a quiet way of not joining in.", "Caring about a friend can mean telling them when they're being unkind.", "Going along with meanness to stay safe still leaves someone else hurt."]},
+        {"heading": "Key takeaway", "content": ["Being loyal to a friend doesn't mean agreeing with everything they do, especially when it hurts someone."]}
+      ]
+    },
+    "difficulty": "hard",
+    "tags": ["friendship", "kindness", "courage", "peer-pressure"]
+  },
+  {
+    "id": "wwyd-039",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "Picked Last, Then Picking",
+    "scenario": "In gym class, you finally get to be a team captain. You remember how it feels to be picked last. Now you have to choose teammates, and the two kids left at the end are the ones who usually get picked last.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Pick one of the usually-last kids early on", "outcome": "You might not get the strongest team, but you could make someone's whole day, and games are about fun too."},
+      {"id": "b", "text": "Pick the best players first to try to win", "outcome": "Your team may win more, but the kids left for last feel the same sting you remember, even if winning feels good."},
+      {"id": "c", "text": "Mix it up and pick based on who seems excited to play", "outcome": "You balance fun and fairness, and you might find that eager players try harder than 'star' ones anyway."}
+    ],
+    "followUpQuestions": ["How did it feel when you were picked last?", "What matters more in a gym game, winning or everyone having fun?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Having power to choose is a chance to treat people how you wish you'd been treated.", "Winning feels good, but so does being the captain people were glad to play for.", "There are ways to be fair that don't require always picking last-first."]},
+        {"heading": "Key takeaway", "content": ["When you're the one with the power to choose, remember how your choices feel to the people being chosen."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["fairness", "empathy", "inclusion", "kindness"]
+  },
+  {
+    "id": "wwyd-040",
+    "collectionId": "what-would-you-do",
+    "category": "At School",
+    "title": "You Broke Something by Accident",
+    "scenario": "While reaching for a pencil, you knock over a classmate's clay sculpture they'd been working on all week, and it cracks in half. It was an accident, and nobody saw it happen. The classmate isn't back from the bathroom yet.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Tell your classmate the truth when they return", "outcome": "It's hard to admit, but they'll find out anyway, and hearing it honestly from you keeps their trust in you."},
+      {"id": "b", "text": "Try to quietly fix it before they notice", "outcome": "If it works, great, but cracked clay rarely goes back perfectly, and getting caught hiding it feels worse than the accident."},
+      {"id": "c", "text": "Say nothing and let them think it just broke", "outcome": "You avoid the awkward moment, but if they ever find out it was you and you hid it, the real damage is to the friendship."}
+    ],
+    "followUpQuestions": ["Is an accident something you should still own up to?", "How would you want someone to tell you if they broke your thing?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Accidents aren't the same as doing something on purpose, and it helps to say that.", "Owning a mistake quickly usually hurts less than hiding it.", "Offering to help fix or make up for it shows you care."]},
+        {"heading": "Key takeaway", "content": ["Accidents happen to everyone; what people remember is whether you were honest about it."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["honesty", "accidents", "responsibility", "friendship"]
+  }
+]

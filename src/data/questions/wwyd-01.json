@@ -1,0 +1,442 @@
+[
+  {
+    "id": "wwyd-001",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Grabbed My Toy",
+    "scenario": "You're building a tall tower with your favorite blocks. Your 2-year-old sister toddles over, grabs the block right off the top, and the whole thing wobbles. She holds it up and grins like she just did something amazing.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Snatch the block right back out of her hand.", "outcome": "You get your block, but she probably cries, and she didn't understand she was doing anything wrong."},
+      {"id": "b", "text": "Hand her a different block that's hers to keep, and keep building.", "outcome": "She's happy with her own block, and your tower survives. Trading usually works better than grabbing with toddlers."},
+      {"id": "c", "text": "Let her have it and build a shorter tower.", "outcome": "No fight, but you might feel a little annoyed. That's okay to notice too."}
+    ],
+    "followUpQuestions": ["Why do you think she wanted the block you were using?", "What's a toy you'd be happy to let her play with anytime?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A 2-year-old doesn't yet understand 'that's mine' the way an older kid does.", "Offering a swap solves the problem without a meltdown."]},
+        {"heading": "Key takeaway", "content": ["Redirecting a toddler often works better than taking something back by force."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["sharing", "toys", "patience", "trading"]
+  },
+  {
+    "id": "wwyd-002",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "Scribbles On My Homework",
+    "scenario": "You left your math homework on the floor for one minute. When you come back, your little sister has drawn big purple crayon scribbles all over it. She looks up at you proudly and says 'pretty!'",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Yell at her for ruining your homework.", "outcome": "She'll probably cry, and yelling won't un-scribble the page. She truly thought she was making it nice."},
+      {"id": "b", "text": "Take a breath, move your homework up high, and tell a parent you need to redo it.", "outcome": "A grown-up can help you fix it, and now your stuff is out of toddler reach for next time."},
+      {"id": "c", "text": "Give her some scrap paper to color on instead.", "outcome": "She gets to keep drawing on something that's okay, and your next homework stays safe."}
+    ],
+    "followUpQuestions": ["Where could you keep your homework so she can't reach it?", "Did she know it was something important?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Toddlers can't tell the difference between scrap paper and important paper.", "Keeping valuable things up high prevents the problem in the first place."]},
+        {"heading": "Key takeaway", "content": ["With a toddler around, protecting your stuff ahead of time beats getting upset after."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["homework", "frustration", "prevention", "drawing"]
+  },
+  {
+    "id": "wwyd-003",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Copies Everything I Do",
+    "scenario": "All afternoon, your sister has been copying you. You clap, she claps. You jump, she jumps. You say a word, she tries to say it too. It's kind of funny, but now you just want to be left alone for a bit.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Turn it into a game and do silly moves on purpose for a few minutes.", "outcome": "She laughs a lot, and you'll be her hero. Copying is how toddlers learn from someone they look up to."},
+      {"id": "b", "text": "Tell her 'I need some quiet time now' and go to your room.", "outcome": "Totally fair to want space. She might follow or fuss, but it's okay to take a break."},
+      {"id": "c", "text": "Do something boring on purpose so she gets bored and wanders off.", "outcome": "Clever, and it might work. She copies the fun stuff, so boring won't hold her for long."}
+    ],
+    "followUpQuestions": ["Why do you think she copies you and not someone else?", "How does it feel to know she looks up to you?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Copying is a big compliment: she thinks you're the coolest person around.", "It's healthy to want alone time, and saying so is better than snapping."]},
+        {"heading": "Key takeaway", "content": ["You can enjoy being a role model and still ask for space when you need it."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["copying", "role-model", "alone-time", "play"]
+  },
+  {
+    "id": "wwyd-004",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Cries When I Leave",
+    "scenario": "You're heading out the door for soccer practice. Your little sister sees you leaving, runs to the door, and bursts into tears with her arms up, crying 'no go!' She hates it when you leave.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Give her a quick hug and tell her 'I'll be back soon, we'll play after.'", "outcome": "She still might cry, but a warm goodbye and a promise you keep helps her trust you'll return."},
+      {"id": "b", "text": "Sneak out the back so she doesn't see you go.", "outcome": "It avoids the tears now, but she may feel more confused or clingy later when she notices you vanished."},
+      {"id": "c", "text": "Leave her one of your things to 'hold for you' until you're back.", "outcome": "A little job and a reminder of you can comfort her, and she'll feel trusted with something special."}
+    ],
+    "followUpQuestions": ["Why do you think leaving feels so big to her?", "What could you two do together when you get home?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Toddlers don't have a clear sense of time, so 'soon' feels scary and far away.", "Honest goodbyes build more trust than sneaking out, even if sneaking is easier right now."]},
+        {"heading": "Key takeaway", "content": ["A short, honest goodbye you follow through on helps her feel safe."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["goodbye", "feelings", "trust", "comfort"]
+  },
+  {
+    "id": "wwyd-005",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Wants To Help Bake",
+    "scenario": "You and a parent are making cookies. Your little sister wants to 'help' so badly, but every time she touches the bowl, flour goes everywhere and she tries to eat the raw dough. She keeps reaching up and whining to join in.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Give her a small safe job, like stirring an empty bowl or pressing a cookie cutter with help.", "outcome": "She feels included and stays busy, even if it's a little messier. Toddlers love a real job of their own."},
+      {"id": "b", "text": "Tell her she's too little and ask her to watch from her chair.", "outcome": "The kitchen stays cleaner, but she'll probably feel left out and keep fussing."},
+      {"id": "c", "text": "Let her do whatever she wants with the dough.", "outcome": "She'll have fun, but raw dough isn't safe to eat and it gets messy fast. A grown-up should set the limits."}
+    ],
+    "followUpQuestions": ["What's a baking job that would be safe for a 2-year-old?", "How did you like helping in the kitchen when you were little?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Giving a toddler a tiny 'job' is often better than keeping her out completely.", "Raw dough and hot ovens are real safety limits a grown-up should handle."]},
+        {"heading": "Key takeaway", "content": ["Including her in a small, safe way usually works better than shutting her out."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["helping", "kitchen", "including", "mess"]
+  },
+  {
+    "id": "wwyd-006",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She's Headed For The Stairs",
+    "scenario": "You're playing on the floor with your sister while a parent is in the other room. You look up and see her crawling fast toward the top of the staircase, reaching for the first step. No one else is right there.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Quickly but calmly move between her and the stairs and call for a grown-up.", "outcome": "This is the safest move. Blocking the way and getting an adult keeps her from a dangerous fall."},
+      {"id": "b", "text": "Yell at her from across the room to stop.", "outcome": "A 2-year-old won't stop just because you shout, and she might even turn toward your voice near the edge."},
+      {"id": "c", "text": "Run and grab her as fast as you can.", "outcome": "Getting to her fast is good, but rushing near stairs can be risky too. Moving calmly between her and the edge is safer."}
+    ],
+    "followUpQuestions": ["Why doesn't yelling work well with a toddler near danger?", "What should always be closed or blocked near stairs?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["In a safety moment, putting yourself between her and the danger is the key move.", "Toddlers can't understand warnings shouted from far away, so you have to act and get a grown-up."]},
+        {"heading": "Key takeaway", "content": ["When she could get hurt, act calmly to block the danger and call an adult right away."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["safety", "stairs", "quick-thinking", "responsibility"]
+  },
+  {
+    "id": "wwyd-007",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Found A Small Toy Part",
+    "scenario": "You're cleaning up your building set and notice your little sister sitting quietly in the corner. She's holding a tiny plastic piece and is about to put it in her mouth.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Go over fast, gently take it, and give her a big safe toy instead.", "outcome": "This is the safest move. Tiny pieces can choke a toddler, and swapping it keeps her from grabbing for it back."},
+      {"id": "b", "text": "Tell her 'no, that's not for eating' from where you're sitting.", "outcome": "She won't understand in time, and the piece could already be in her mouth. This needs you to move, not just talk."},
+      {"id": "c", "text": "Finish picking up first, then take it from her.", "outcome": "Waiting is risky with a small object near her mouth. Choking happens in seconds, so this one can't wait."}
+    ],
+    "followUpQuestions": ["Why are tiny pieces dangerous for a 2-year-old?", "Where could you keep your small toys so she can't reach them?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Toddlers explore by putting things in their mouths, so small objects are a real choking danger.", "Swapping the small item for a big safe toy avoids a grab-back battle."]},
+        {"heading": "Key takeaway", "content": ["Small objects near a toddler's mouth are an act-now moment, not a wait moment."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["safety", "choking", "small-parts", "quick-thinking"]
+  },
+  {
+    "id": "wwyd-008",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Won't Share The Ball",
+    "scenario": "You're outside and there's only one bouncy ball. You want a turn, but your sister is holding it tight against her chest and says 'mine, mine, mine' every time you get close.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Start a fun rolling game so she wants to pass it back and forth.", "outcome": "Turning it into a game makes sharing feel fun, not like losing. This often works far better than asking."},
+      {"id": "b", "text": "Tell her she has to share and take it from her.", "outcome": "You might get the ball, but she can't really understand sharing yet, so she'll likely just cry."},
+      {"id": "c", "text": "Go find a different ball or toy for yourself.", "outcome": "No conflict, and you still get to play. Sometimes letting the toddler keep it is the easy win."}
+    ],
+    "followUpQuestions": ["Why is sharing so hard for a 2-year-old?", "What game could make passing the ball fun for both of you?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Around age 2, kids genuinely can't share well yet; it's a skill they're still learning.", "Making it a back-and-forth game teaches turns without a fight."]},
+        {"heading": "Key takeaway", "content": ["You can't force a toddler to share, but you can make taking turns feel like play."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["sharing", "turn-taking", "outdoor", "play"]
+  },
+  {
+    "id": "wwyd-009",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "Mom Is Busy With Her",
+    "scenario": "You've been waiting all day to show Mom your drawing. But right when you walk up, the baby starts crying and needs a diaper change, so Mom says 'just a minute, honey.' It feels like your sister always comes first.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Wait a bit, and show Mom the drawing when she's done.", "outcome": "You'll likely get her full attention in a few minutes, and it's worth the short wait."},
+      {"id": "b", "text": "Tell Mom later that you feel like you don't get enough time with her.", "outcome": "Sharing how you feel is brave and honest. Parents often don't realize, and they usually want to fix it."},
+      {"id": "c", "text": "Stomp off and feel ignored.", "outcome": "The jealous feeling is real and okay, but stomping off means Mom never gets to see your drawing or know how you feel."}
+    ],
+    "followUpQuestions": ["Why do you think a baby needs help right away sometimes?", "When is a good time to get one-on-one time with a parent?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Feeling jealous of the attention a toddler gets is normal and nothing to be ashamed of.", "Babies often need help immediately, but that doesn't mean you matter less."]},
+        {"heading": "Key takeaway", "content": ["It's okay to want your parent's attention, and saying how you feel helps more than hiding it."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["jealousy", "feelings", "parents", "attention"]
+  },
+  {
+    "id": "wwyd-010",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Broke My Favorite Thing",
+    "scenario": "Your sister got into your room and knocked your favorite model off the shelf. It's cracked in two pieces on the floor. She didn't mean to, but you worked really hard on it and now it's broken.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Let yourself feel sad or mad, then ask a parent to help fix or glue it.", "outcome": "Your feelings make sense, and asking for help means it might be repairable. Big feelings plus a plan is a good combo."},
+      {"id": "b", "text": "Break one of her toys so she knows how it feels.", "outcome": "She won't understand the lesson, and now two things are broken. Getting even usually just makes you feel worse."},
+      {"id": "c", "text": "Keep your special things up high where she can't reach them next time.", "outcome": "You can't change what happened, but this stops it happening again. Toddlers grab everything in reach."}
+    ],
+    "followUpQuestions": ["How is an accident different from doing something on purpose?", "Where's a safer spot for your most special things?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A 2-year-old doesn't understand that something is special or fragile.", "It's fair to feel upset, and it's also fair that it was an accident, not meanness."]},
+        {"heading": "Key takeaway", "content": ["You can be upset about a broken thing and still know she didn't do it on purpose."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["accidents", "feelings", "forgiveness", "prevention"]
+  },
+  {
+    "id": "wwyd-011",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Won't Give It Back",
+    "scenario": "Your sister picked up your special keychain, the one from your trip. You ask for it back nicely, but she clutches it tighter, shakes her head, and runs away giggling. She thinks it's a chasing game.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Offer a fun trade, like 'Want to hold this shiny spoon instead?'", "outcome": "Toddlers love shiny new things, so a trade often gets your keychain back without tears."},
+      {"id": "b", "text": "Chase her to grab it back.", "outcome": "She thinks chasing is the game, so she'll run harder and hold tighter. It usually makes things worse."},
+      {"id": "c", "text": "Ask a parent to help trade it back.", "outcome": "A grown-up can help smoothly, and you learn you don't have to solve every toddler standoff alone."}
+    ],
+    "followUpQuestions": ["Why does chasing make her hold on tighter?", "What's something shiny or fun you could trade her?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["To a toddler, a chase is pure fun, not a signal to give something back.", "A calm trade works with how a 2-year-old's brain actually works."]},
+        {"heading": "Key takeaway", "content": ["Trading beats chasing when you want something back from a toddler."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["trading", "patience", "problem-solving", "toys"]
+  },
+  {
+    "id": "wwyd-012",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "Watch Her For A Minute",
+    "scenario": "A parent says, 'I need to grab the laundry, watch your sister for one minute.' You're right in the middle of a video game that's about to save your high score, and your sister is playing on the rug nearby.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Pause the game and keep your eyes on her until a parent comes back.", "outcome": "She's safe and you can finish your game after. Watching a toddler really does mean eyes on her the whole time."},
+      {"id": "b", "text": "Keep playing but glance over at her now and then.", "outcome": "A lot can happen in the seconds you look away. Toddlers move fast, so glances aren't quite enough for 'watch her.'"},
+      {"id": "c", "text": "Tell your parent you can't right now because you're mid-game.", "outcome": "Being honest is okay, but a parent asked for just a minute. It's worth knowing when to put the game down to help."}
+    ],
+    "followUpQuestions": ["What does it really mean to 'watch' a toddler?", "When is it okay to say you can't help right now?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Watching a toddler means active attention, because they get into things in seconds.", "Being trusted to watch her is a sign your parents see you as responsible."]},
+        {"heading": "Key takeaway", "content": ["When you're asked to watch her, keep your full attention on her until help is back."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["responsibility", "safety", "attention", "trust"]
+  },
+  {
+    "id": "wwyd-013",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Climbs Into My Bed",
+    "scenario": "It's your bedtime and you're finally cozy. Your door creaks open and your little sister pads in, clutching her stuffed bunny, and tries to climb into your bed because she doesn't want to sleep alone.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Walk her back to her bed and tuck her bunny in with her.", "outcome": "She learns her own bed is a cozy place too, and a parent will appreciate the help with bedtime routine."},
+      {"id": "b", "text": "Let her snuggle in with you just this once.", "outcome": "It's sweet, but she might expect it every night, and nobody sleeps well squished together. Worth checking your family's rule."},
+      {"id": "c", "text": "Call a parent to help get her back to sleep.", "outcome": "Totally fine to get backup at bedtime. Grown-ups handle the sleep routine, and you get to rest."}
+    ],
+    "followUpQuestions": ["Why do you think she doesn't want to sleep alone?", "What's your family's rule about bedtime?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Toddlers often feel safer near people, so wanting to climb in is natural.", "Bedtime routines matter, so it helps to know your family's plan rather than deciding alone."]},
+        {"heading": "Key takeaway", "content": ["You can be kind to her and still help keep the family's bedtime routine."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["bedtime", "comfort", "routine", "kindness"]
+  },
+  {
+    "id": "wwyd-014",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Has A Full-On Meltdown",
+    "scenario": "At the store, your sister wanted a candy bar and your mom said no. Now she's on the floor crying as loud as she can, kicking her legs. People are looking, and you feel embarrassed standing next to her.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Stay calm and try to point out something interesting to distract her.", "outcome": "Distraction can break a toddler tantrum, and staying calm helps more than adding to the stress."},
+      {"id": "b", "text": "Walk a few steps away so people don't think you're with her.", "outcome": "The embarrassed feeling is real, but she's your sister and your mom could use a calm helper, not a disappearing one."},
+      {"id": "c", "text": "Tell her loudly to stop crying.", "outcome": "A mid-tantrum toddler can't just stop, and loud commands often make the crying bigger, not smaller."}
+    ],
+    "followUpQuestions": ["Why can't a 2-year-old just calm down when told to?", "What helps you calm down when you're really upset?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Tantrums happen because toddlers have big feelings and few words to handle them.", "Feeling embarrassed is normal, but a calm sibling is a real help to a parent."]},
+        {"heading": "Key takeaway", "content": ["You can't stop a tantrum by force, but staying calm and distracting can help it pass."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["tantrum", "calm", "embarrassment", "helping"]
+  },
+  {
+    "id": "wwyd-015",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Says A New Word Wrong",
+    "scenario": "Your sister is learning to talk. She points at the dog and says 'goggie!' with a huge smile. It's adorable, but it's not quite right, and your friend who's over starts to giggle at her.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Smile and say the word back clearly: 'Yes! Doggie!'", "outcome": "She hears the right word in a happy way and keeps trying. Gentle repeating is exactly how toddlers learn to talk."},
+      {"id": "b", "text": "Laugh along with your friend at how she said it.", "outcome": "It might feel funny in the moment, but she could feel teased and want to stop trying new words."},
+      {"id": "c", "text": "Tell your friend, 'She's just learning,' and cheer her on.", "outcome": "You stick up for her and keep her confidence up. Standing by your sister feels good too."}
+    ],
+    "followUpQuestions": ["Why is it a big deal that she's trying new words?", "How would you want someone to treat you while you're learning something new?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Mispronouncing words is a normal, important part of learning to talk.", "Gentle encouragement helps her keep trying, while being laughed at can discourage her."]},
+        {"heading": "Key takeaway", "content": ["Cheering her on while she learns helps her more than laughing at her mistakes."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["talking", "encouragement", "kindness", "learning"]
+  },
+  {
+    "id": "wwyd-016",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Wants To Watch My Show",
+    "scenario": "You finally get the TV to yourself and put on your favorite show that's a little too old for her. Your sister wanders in, points at the screen, and wants to watch too, but it has some scary parts for a 2-year-old.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Switch to something you both like until a parent can take her.", "outcome": "You give up your show for now, but you keep her from seeing scary stuff she's too little for. You can watch yours later."},
+      {"id": "b", "text": "Keep watching your show with her sitting there.", "outcome": "You get your show, but scary parts can really upset a toddler and give her bad dreams. She can't tell it's pretend."},
+      {"id": "c", "text": "Ask a parent to help find her something else to do.", "outcome": "Smart move. A grown-up can set her up with her own activity so you both end up happy."}
+    ],
+    "followUpQuestions": ["Why might a show that's fine for you be too scary for her?", "What's a show you both actually enjoy?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Toddlers can't tell pretend from real, so scary scenes can frighten them deeply.", "Choosing what's right for her age is a caring, grown-up thing to do."]},
+        {"heading": "Key takeaway", "content": ["Some things that are fine for you aren't right for a toddler, and noticing that is kind."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["screen-time", "age-appropriate", "caring", "sharing"]
+  },
+  {
+    "id": "wwyd-017",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Knocked Over My Tower",
+    "scenario": "You spent twenty minutes building the biggest, tallest tower ever. You turn to grab one more block and your sister charges through it like a little tornado, giggling as blocks fly everywhere.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Take a breath and build a tower with her this time so she can knock it down together.", "outcome": "Knocking over towers is pure joy for toddlers, and building a 'knock-down' one together turns it into a game you both like."},
+      {"id": "b", "text": "Rebuild it somewhere she can't reach, like a table or your room.", "outcome": "Smart. You get to keep your big tower, and she doesn't get blamed for being a toddler."},
+      {"id": "c", "text": "Get mad and tell her she always wrecks everything.", "outcome": "She didn't understand it was special, and harsh words might make her sad or cry. The tower's already down anyway."}
+    ],
+    "followUpQuestions": ["Why do you think knocking things down is so fun for her?", "Where could you build something you want to keep safe?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Toddlers love cause and effect, so knocking down a tower is thrilling, not mean.", "You can protect your careful builds by choosing a spot out of her reach."]},
+        {"heading": "Key takeaway", "content": ["She's not wrecking things to be bad, and you can plan around a curious toddler."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["play", "patience", "building", "understanding"]
+  },
+  {
+    "id": "wwyd-018",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She's Near The Hot Stove",
+    "scenario": "A parent is cooking and steps away for a second to answer the door. You notice your sister reaching up toward the stove, where a pot handle is sticking out over the edge, close enough for her to grab.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Quickly move her away from the stove and call for the grown-up right away.", "outcome": "This is the safest move. A hot stove and pot can badly burn a toddler, so getting her away fast really matters."},
+      {"id": "b", "text": "Tell her 'hot, no touch' from where you're standing.", "outcome": "She might not stop in time, and 'hot' doesn't mean much to her yet. This moment needs you to move her, not just talk."},
+      {"id": "c", "text": "Turn the pot handle in yourself, away from the edge.", "outcome": "Turning handles in is smart kitchen safety, but the pot is hot, so the safest thing is to move her and let a grown-up handle the pot."}
+    ],
+    "followUpQuestions": ["Why don't words like 'hot' stop a 2-year-old in time?", "What are ways kitchens can be made safer for toddlers?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A hot stove is a serious burn danger, and toddlers don't understand 'hot' yet.", "The safest step for a kid is to move her away and get an adult, not to touch hot pots."]},
+        {"heading": "Key takeaway", "content": ["Near a hot stove, get her away and get a grown-up; don't rely on words or touch the pot."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["safety", "kitchen", "burns", "quick-thinking"]
+  },
+  {
+    "id": "wwyd-019",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "My Friend Doesn't Like Her",
+    "scenario": "Your best friend is over to play. Your little sister keeps toddling in wanting to join, but your friend rolls their eyes and says, 'Can you make your annoying sister go away?' You feel stuck in the middle.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Set her up with a fun toy nearby, then go back to your friend.", "outcome": "You keep her happy and get friend time too. A little setup often buys you both what you want."},
+      {"id": "b", "text": "Tell your friend, 'She's little, be nice,' and include her for a few minutes.", "outcome": "You stand up for your sister, which feels good, though your friend might need to adjust. Real friends can handle that."},
+      {"id": "c", "text": "Tell her to go away because your friend wants you to.", "outcome": "You might please your friend, but your sister could feel pushed out and hurt. It's worth thinking about who you want to stand by."}
+    ],
+    "followUpQuestions": ["How would you feel if someone called you annoying?", "Is there a way everyone gets what they want here?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["It's normal to want friend time without a toddler tagging along.", "How you treat your sister in front of others shows what kind of big sibling you want to be."]},
+        {"heading": "Key takeaway", "content": ["You can want space from her and still treat her with kindness and respect."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["friends", "loyalty", "kindness", "boundaries"]
+  },
+  {
+    "id": "wwyd-020",
+    "collectionId": "what-would-you-do",
+    "category": "With My Little Sister",
+    "title": "She Wants A Hug Goodnight",
+    "scenario": "It's the end of a long day and you're tired and a little grumpy. As you pass her room, your sister reaches out her arms and says 'huggie?' for a goodnight hug. You just want to flop into bed.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Give her a quick hug goodnight before heading to bed.", "outcome": "A ten-second hug means a lot to her, and these little moments are how you two stay close."},
+      {"id": "b", "text": "Tell her 'not tonight, I'm too tired' and go to your room.", "outcome": "It's honest that you're tired, but she might feel a little sad. A super quick hug is usually easier than a disappointed toddler."},
+      {"id": "c", "text": "Blow her a kiss and wave goodnight instead.", "outcome": "A nice middle option when you're wiped out. She still feels your love without a full hug."}
+    ],
+    "followUpQuestions": ["Why do you think a goodnight hug matters so much to her?", "What's a small thing that makes you feel loved at bedtime?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Small daily moments of warmth build a strong bond between siblings over time.", "It's okay to be tired, and there are easy ways to still show you care."]},
+        {"heading": "Key takeaway", "content": ["Little gestures of love add up, even on the days you don't feel like it."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["affection", "bedtime", "bonding", "kindness"]
+  }
+]

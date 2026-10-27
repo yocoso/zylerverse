@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
-import type { Question } from "../types/question";
+import type { Choice, Question } from "../types/question";
 import { getCollection } from "../data/collections";
 import { useProgress } from "../hooks/ProgressContext";
 import { useCollectionNav } from "../hooks/useCollectionNav";
@@ -40,6 +40,55 @@ function IconToggle({
     >
       {children}
     </button>
+  );
+}
+
+type Accent = { text: string; bg: string; border: string; soft: string };
+
+/**
+ * Choice picker for choice-based questions. The child taps an option to reveal
+ * what might happen if they pick it. There's no rigid right/wrong — picking is
+ * exploratory, and they can try different options. Selection is local state and
+ * resets per question (QuestionDetail is remounted by id).
+ */
+function QuestionChoices({ choices, accent }: { choices: Choice[]; accent: Accent }) {
+  const [selected, setSelected] = useState<string | null>(null);
+
+  return (
+    <div className="mt-4 border-t border-line pt-4">
+      <p className="mb-2.5 text-sm font-semibold text-muted">Pick what you’d do</p>
+      <div className="space-y-2.5">
+        {choices.map((c) => {
+          const isSel = selected === c.id;
+          return (
+            <div key={c.id}>
+              <button
+                type="button"
+                onClick={() => setSelected(isSel ? null : c.id)}
+                aria-pressed={isSel}
+                className={`flex w-full items-start gap-2.5 rounded-xl2 border p-3.5 text-left transition active:scale-[0.99] ${
+                  isSel ? `${accent.border} ${accent.soft}` : "border-line bg-card hover:border-brand-200"
+                }`}
+              >
+                <span
+                  className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
+                    isSel ? `${accent.bg} text-white` : "bg-paper text-muted"
+                  }`}
+                >
+                  {c.id.toUpperCase()}
+                </span>
+                <span className="font-medium leading-snug text-ink">{c.text}</span>
+              </button>
+              {isSel && (
+                <p className="ml-9 mt-1.5 rounded-xl border border-line bg-paper/70 p-3 text-[15px] leading-relaxed text-ink">
+                  {c.outcome}
+                </p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 }
 
@@ -84,6 +133,10 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
         )}
 
         <p className="mt-4 text-xl font-semibold leading-relaxed text-ink">{question.question}</p>
+
+        {question.choices && question.choices.length > 0 && (
+          <QuestionChoices choices={question.choices} accent={accent} />
+        )}
 
         {question.followUpQuestions && question.followUpQuestions.length > 0 && (
           <div className="mt-4 border-t border-line pt-4">

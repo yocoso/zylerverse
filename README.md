@@ -8,15 +8,16 @@ conversation cards that work fully offline.
 
 ## Collections
 
-- **Social Thinking** — 120 realistic scenarios building perspective-taking,
-  empathy, boundaries, and social reasoning. Each has a discussion guide with
-  *Possible Explanations, Perspective Taking, Things to Consider, Possible
-  Responses,* and a *Key Takeaway*.
+- **What Would You Do?** — 60 everyday choice-based scenarios across three
+  themes (*With My Little Sister, At School, Everyday Life*). The child reads a
+  situation and picks what they'd do; each option reveals an honest, non-preachy
+  outcome, plus a light *Things to think about* / *Key takeaway* guide.
 - **Family Conversations** — 120 open-ended prompts for the whole family, with
   *Follow-Up Questions, Interesting Angles, a Family Activity,* and a
   *Conversation Takeaway*.
 
-240 original questions total, all bundled with the app.
+180 original questions total, all bundled with the app. Questions may be
+open-ended or choice-based (an optional `choices` array on the shared model).
 
 ## Tech stack
 

@@ -35,6 +35,17 @@ export function validateQuestions(questions: Question[]): ValidationResult {
       });
     }
 
+    if (q.choices !== undefined) {
+      if (!Array.isArray(q.choices) || q.choices.length < 2)
+        errors.push(`${where}: choices must have at least 2 options when present`);
+      else
+        q.choices.forEach((c, ci) => {
+          if (!c.id) errors.push(`${where}: choice ${ci} missing id`);
+          if (!c.text) errors.push(`${where}: choice ${ci} missing text`);
+          if (!c.outcome) errors.push(`${where}: choice "${c.id}" missing outcome`);
+        });
+    }
+
     if (q.id) {
       if (seen.has(q.id)) errors.push(`${where}: duplicate id (also at index ${seen.get(q.id)})`);
       else seen.set(q.id, i);

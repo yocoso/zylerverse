@@ -1,0 +1,442 @@
+[
+  {
+    "id": "wwyd-041",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Cracked Picture Frame",
+    "scenario": "You were tossing a ball inside the living room even though you know you're not supposed to. The ball knocks a picture frame off the shelf and the glass cracks. Nobody else is home right now to see it happen.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Tell a parent what happened as soon as they get home", "outcome": "It feels scary to admit, but owning up early usually means less trouble and your parent knows they can trust what you say."},
+      {"id": "b", "text": "Put the frame back and hope nobody notices the crack", "outcome": "You might avoid the moment for now, but a cracked frame is easy to spot, and being found out later often feels worse than telling the truth."},
+      {"id": "c", "text": "Hide the frame in a drawer so it looks like it disappeared", "outcome": "The missing frame will raise questions too, and hiding it can turn one small accident into a bigger tangle to explain."}
+    ],
+    "followUpQuestions": ["Why does telling the truth sometimes feel harder than the accident itself?", "What's a good rule for playing ball so this doesn't happen again?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Accidents happen to everyone, even grown-ups.", "The honest choice is usually about what you do AFTER the mistake, not that you made one.", "Breaking a rule and then an accident can feel like double trouble, which makes hiding tempting."]},
+        {"heading": "Key takeaway", "content": ["Owning a mistake early is almost always easier than hiding it and being found out later."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["honesty", "accidents", "home", "responsibility"]
+  },
+  {
+    "id": "wwyd-042",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Chore Time During the Game",
+    "scenario": "You're right in the middle of a video game level you've been trying to beat all week. Your mom calls out that it's your turn to take out the trash. You could pause, but you're so close to finally winning.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Pause the game and take out the trash right away", "outcome": "You might lose a little progress, but doing it now keeps your word and you can go back to the game with nothing hanging over you."},
+      {"id": "b", "text": "Shout 'in a minute!' and keep playing until you finish the level", "outcome": "You might beat the level, but 'a minute' that turns into ten can make a parent feel ignored and less likely to trust your next 'in a minute.'"},
+      {"id": "c", "text": "Ask if you can finish this one level first, then do it", "outcome": "Asking honestly instead of just delaying shows respect, and your mom may say yes, especially if you actually follow through right after."}
+    ],
+    "followUpQuestions": ["What's the difference between asking to wait and just ignoring a chore?", "How do you feel when someone keeps saying 'in a minute' to you?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Chores don't disappear if you delay them, they just wait.", "Asking for a short pause is different from ignoring the request entirely.", "Keeping small promises builds the trust that gets you more freedom later."]},
+        {"heading": "Key takeaway", "content": ["How you handle the small stuff, like a quick chore, shapes how much people trust you with the big stuff."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["chores", "responsibility", "screen-time", "home"]
+  },
+  {
+    "id": "wwyd-043",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Money on the Sidewalk",
+    "scenario": "Walking home from school, you spot a ten-dollar bill lying on the sidewalk. There's no one nearby who seems to have dropped it, and no wallet or purse in sight.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Look around to see if anyone is searching for it first", "outcome": "Taking a moment to check is thoughtful, and if someone nearby is patting their pockets, you can make their day by handing it back."},
+      {"id": "b", "text": "Pick it up and keep it since no one is around", "outcome": "Found money with no owner in sight isn't really stealing, but it's worth asking how you'd feel if it were your lost ten dollars."},
+      {"id": "c", "text": "Take it home and tell a parent so you can decide together", "outcome": "Bringing a grown-up into it helps you figure out the fair thing, like checking a nearby shop in case someone reports it missing."}
+    ],
+    "followUpQuestions": ["Would your answer change if it were a hundred dollars instead of ten?", "How would you feel if you were the one who dropped the money?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Finding money isn't the same as taking something from a person, but the owner still lost it.", "The amount can change how we feel about the right thing to do.", "A quick look around costs nothing and can make a big difference to someone."]},
+        {"heading": "Key takeaway", "content": ["When you find something, imagining you were the one who lost it points you toward the kind thing to do."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["honesty", "money", "around-town", "fairness"]
+  },
+  {
+    "id": "wwyd-044",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Just Five More Minutes",
+    "scenario": "Your screen time for the day is officially up, but your show is at the most exciting part. You really want to beg for five more minutes, and your dad is right there in the kitchen.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Turn it off when the timer ends, like you agreed", "outcome": "It's tough to stop at the good part, but keeping the deal makes your parents more likely to say yes to extra time on a special day."},
+      {"id": "b", "text": "Ask calmly if you can finish just this episode", "outcome": "A polite, honest ask is fair to try, and you might get a yes, though you also have to be ready to hear no and turn it off anyway."},
+      {"id": "c", "text": "Pretend you didn't hear the timer and keep watching", "outcome": "You might sneak a few more minutes, but getting caught ignoring the rule often means stricter limits tomorrow."}
+    ],
+    "followUpQuestions": ["Why is it so hard to stop watching at an exciting moment?", "What could help you feel okay about turning it off next time?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Screens are designed to make stopping feel hard, so it's not just you.", "Asking politely is different from sneaking extra time.", "Sticking to limits you agreed on builds trust for flexible days later."]},
+        {"heading": "Key takeaway", "content": ["Keeping your word on small limits now earns you more say over your time later."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["screen-time", "self-control", "home", "trust"]
+  },
+  {
+    "id": "wwyd-045",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Forgotten Fish",
+    "scenario": "You promised to feed your pet fish every morning before school. It's now evening and you suddenly remember you completely forgot to feed it today. The fish seems fine, but you feel a twist in your stomach.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Feed the fish right now and tell a parent you forgot", "outcome": "Fixing it immediately and being honest shows you take care of the fish, even when you slip, which is what a pet owner does."},
+      {"id": "b", "text": "Quietly feed the fish and say nothing about forgetting", "outcome": "The fish gets fed, which matters most, but telling someone helps you set up a reminder so it doesn't keep happening."},
+      {"id": "c", "text": "Feed it extra food to make up for the missed meal", "outcome": "Too much food can actually make a fish sick or cloud the water, so 'making up for it' can cause a new problem."}
+    ],
+    "followUpQuestions": ["What could remind you to feed the fish at the same time each day?", "Why is a pet's care your job even on busy mornings?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A pet depends on you and can't ask for food itself.", "Fixing a slip quickly matters more than feeling bad about it.", "Overcorrecting, like doubling the food, can create a different problem."]},
+        {"heading": "Key takeaway", "content": ["When you forget a responsibility, fix it right away and set up a way to remember next time."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["pets", "responsibility", "home", "honesty"]
+  },
+  {
+    "id": "wwyd-046",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Too Much Change",
+    "scenario": "You buy a snack at the corner store with a five-dollar bill. The cashier is busy and hands you change for a twenty by mistake, so you have way more money than you should. They didn't notice.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Point out the mistake and give back the extra money", "outcome": "You walk away with less cash but a clear conscience, and the cashier, who might have to cover the difference, is grateful."},
+      {"id": "b", "text": "Keep the extra money since it was their mistake", "outcome": "It feels like free money, but that cash often comes out of the cashier's own pay at the end of the day, which makes it less free than it seems."},
+      {"id": "c", "text": "Count it carefully, then decide, and ask a parent if unsure", "outcome": "Double-checking is smart, and bringing in a grown-up helps if you're not sure, though the extra cash isn't really yours to keep."}
+    ],
+    "followUpQuestions": ["Who do you think has to pay when a cashier gives too much change?", "Does a mistake being someone else's fault make it okay to keep the extra?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Extra change often comes out of a real person's pay later.", "Something being a stranger's mistake doesn't automatically make it yours to keep.", "Doing the honest thing with money when no one's watching is a real test of character."]},
+        {"heading": "Key takeaway", "content": ["Honesty counts most when keeping quiet would benefit you and no one would ever know."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["honesty", "money", "around-town", "fairness"]
+  },
+  {
+    "id": "wwyd-047",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Long Car Ride",
+    "scenario": "You're two hours into a long car trip to visit relatives, and there's still a long way to go. You're bored out of your mind, your sibling keeps poking you, and you feel like you might explode with restlessness.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Start a car game like spotting license plates or 'I Spy'", "outcome": "You turn boredom into something fun and the time passes faster, plus your sibling might join instead of poking you."},
+      {"id": "b", "text": "Poke your sibling back and start bickering", "outcome": "It breaks the boredom for a second, but it usually turns into a fight that makes the whole car ride tense for everyone."},
+      {"id": "c", "text": "Put on headphones and listen to music or an audiobook", "outcome": "A good way to settle yourself down, though sharing a game might make the trip more fun for the whole family."}
+    ],
+    "followUpQuestions": ["What's your favorite way to pass time when you're stuck waiting?", "How does your mood affect everyone else in the car?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Boredom is uncomfortable but it's not an emergency.", "You have more power over your own fun than it feels like in the moment.", "What you choose affects the mood of everyone sharing the space."]},
+        {"heading": "Key takeaway", "content": ["When you're stuck and bored, inventing your own fun beats waiting for the boredom to end on its own."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["patience", "siblings", "boredom", "around-town"]
+  },
+  {
+    "id": "wwyd-048",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Dinner You Don't Like",
+    "scenario": "Your family sits down for dinner and it's a dish you really don't enjoy. Everyone else is eating, and you can tell the grown-up who cooked it worked hard to make it. Your stomach is growling but you're not excited about the food.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Try a few bites and politely say it's not your favorite", "outcome": "You give it a fair shot, which is respectful to the cook, and being honest but kind is better than a big dramatic reaction."},
+      {"id": "b", "text": "Loudly announce that the food is gross and push your plate away", "outcome": "You make your feelings very clear, but it can hurt the cook's feelings and usually leads to a tense dinner for everyone."},
+      {"id": "c", "text": "Eat it quietly even though you don't love it", "outcome": "You keep the peace and fill your stomach, though it's also okay to gently say it's not your favorite so your family knows your tastes."}
+    ],
+    "followUpQuestions": ["How would you feel if you cooked something and someone called it gross?", "Is there a kind way to say you don't like a food?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Someone put time and care into making the meal.", "You can be honest about your tastes without being hurtful.", "Trying a few bites is a fair way to respect the effort."]},
+        {"heading": "Key takeaway", "content": ["You can tell the truth about what you like while still being kind about how you say it."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["kindness", "family", "food", "home"]
+  },
+  {
+    "id": "wwyd-049",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Off the Map at the Park",
+    "scenario": "You're playing at the park where your parents told you to stay inside the fenced playground area. A friend wants you both to go explore the woods just past the fence, where you can't be seen from the benches.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Say you have to stay in the playground and invite them to play there", "outcome": "Your friend might be a little disappointed, but you stay safe and where your parents can find you, and a good friend will still want to play."},
+      {"id": "b", "text": "Go explore the woods just for a few minutes", "outcome": "It sounds exciting, but being somewhere your parents can't see you is exactly the situation that rules like this are meant to prevent."},
+      {"id": "c", "text": "Ask a parent if you can both explore the woods together", "outcome": "Asking first is a smart move, and a grown-up might come along or set a safe boundary instead of you guessing on your own."}
+    ],
+    "followUpQuestions": ["Why do you think your parents set that boundary?", "What could you say to a friend who wants you to break a rule?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Safety rules usually have a reason even when they feel annoying.", "A real friend won't drop you for sticking to your limits.", "Asking a grown-up is always an option when a plan feels uncertain."]},
+        {"heading": "Key takeaway", "content": ["It's okay to say no to a friend's plan when it crosses a line your parents set for your safety."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["safety", "friends", "peer-pressure", "around-town"]
+  },
+  {
+    "id": "wwyd-050",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Secret Spill",
+    "scenario": "You pour yourself some juice and accidentally spill a big puddle on the kitchen floor. No one saw it happen, and you could easily walk away and let someone else find it later.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Grab a towel and clean it up yourself", "outcome": "You handle your own mess, and nobody slips on a hidden puddle, which is exactly what a responsible person does when no one's watching."},
+      {"id": "b", "text": "Leave it and hope it dries before anyone notices", "outcome": "Sticky juice doesn't just vanish, and someone could slip on it, which turns a small spill into a bigger problem than cleaning it now."},
+      {"id": "c", "text": "Tell a parent you spilled and ask how to clean it", "outcome": "Being upfront is great, and asking for help shows you want to fix it, especially if it's a big spill you can't handle alone."}
+    ],
+    "followUpQuestions": ["What's the difference between a mistake and being irresponsible?", "Why does it matter what you do when no one is watching?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["A spill is an accident, but leaving it is a choice.", "Someone could get hurt slipping on a hidden puddle.", "Cleaning up your own mess is a sign of growing up."]},
+        {"heading": "Key takeaway", "content": ["Who you are shows most in what you do when you think no one will ever know."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["responsibility", "honesty", "home", "integrity"]
+  },
+  {
+    "id": "wwyd-051",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Borrowed Book You Lost",
+    "scenario": "Your friend lent you their favorite book two weeks ago, and now you can't find it anywhere. You've searched your room and backpack. Your friend just texted asking for it back because they want to reread it.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Tell your friend the truth and offer to replace it", "outcome": "It's uncomfortable to admit, but honesty keeps the friendship strong, and offering to replace it shows you respect their stuff."},
+      {"id": "b", "text": "Say you'll bring it soon and keep searching secretly", "outcome": "Buying time to look harder can work if you find it fast, but if you keep stalling, your friend may feel strung along and hurt."},
+      {"id": "c", "text": "Tell them you already gave it back and blame them for losing it", "outcome": "This might get you off the hook for a moment, but a lie like this can seriously damage trust if the truth comes out."}
+    ],
+    "followUpQuestions": ["How would you want a friend to treat you if they lost something of yours?", "Why can losing something you borrowed feel worse than losing your own stuff?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Borrowing something means taking care of it like it's your own.", "Admitting you lost it is hard but honest.", "Offering to replace or make it right shows real respect for a friend."]},
+        {"heading": "Key takeaway", "content": ["When you lose something you borrowed, owning up and making it right protects the friendship more than any excuse."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["honesty", "friends", "responsibility", "borrowing"]
+  },
+  {
+    "id": "wwyd-052",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Last Cookie",
+    "scenario": "There's exactly one cookie left on the plate, and both you and your younger sibling spot it at the same time. You both really want it, and your sibling is already reaching for it.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Offer to split the cookie in half", "outcome": "Nobody gets the whole thing, but you both get a treat and nobody feels cheated, which usually keeps the peace."},
+      {"id": "b", "text": "Grab it first since you saw it too", "outcome": "You get the cookie, but a grabbed treat often leads to a fight or hurt feelings that can sour the rest of the day."},
+      {"id": "c", "text": "Let your sibling have it this time", "outcome": "A generous move that your sibling will notice, and taking turns being the giver often comes back around to you later."}
+    ],
+    "followUpQuestions": ["What makes sharing feel fair to everyone?", "How do you decide who gets the last of something?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Fairness doesn't always mean you get the most.", "Splitting or taking turns keeps relationships friendly.", "Small acts of generosity often come back to you."]},
+        {"heading": "Key takeaway", "content": ["Sharing the last treat costs you a little now but keeps the peace and the friendship worth more than a cookie."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["sharing", "fairness", "siblings", "home"]
+  },
+  {
+    "id": "wwyd-053",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Lost Little Kid",
+    "scenario": "At the busy grocery store, you notice a little kid, maybe four years old, standing alone and starting to cry. They look around for a grown-up but can't seem to find their parent anywhere.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Find a store worker and tell them about the lost kid", "outcome": "A store employee is trained to help reunite lost kids safely, so telling them is one of the most helpful things you can do."},
+      {"id": "b", "text": "Take the little kid by the hand and walk around looking for their parent", "outcome": "Your heart's in the right place, but wandering off with them can make it harder for their parent to find them, and you could get lost too."},
+      {"id": "c", "text": "Tell your own parent so a grown-up can help", "outcome": "Bringing in your own grown-up is a great call, since adults can handle the situation and keep both you and the little kid safe."}
+    ],
+    "followUpQuestions": ["Why is it safer to get a grown-up than to handle it all yourself?", "How do you think the little kid is feeling right now?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Noticing someone who needs help is a kind instinct.", "The safest help often means getting a trusted adult, not solving it alone.", "Staying put makes it easier for a lost person to be found."]},
+        {"heading": "Key takeaway", "content": ["You can be caring and smart at the same time by getting a trusted grown-up to help someone in trouble."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["kindness", "safety", "around-town", "helping"]
+  },
+  {
+    "id": "wwyd-054",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Homework Before Play",
+    "scenario": "You just got home from school and your friends are already outside playing a game you love. You still have math homework due tomorrow, and you know once you go out, you won't want to come back in.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Do your homework first, then go out to play", "outcome": "It's hard to wait while your friends are already playing, but finishing first means you can play with nothing hanging over your head."},
+      {"id": "b", "text": "Go play now and promise yourself you'll do it later", "outcome": "The game is fun, but 'later' often turns into a rushed, grumpy homework session at bedtime, or a scramble in the morning."},
+      {"id": "c", "text": "Ask a parent if you can play for 30 minutes, then do homework", "outcome": "A clear plan with a time limit can work well, as long as you actually come back in when the time is up."}
+    ],
+    "followUpQuestions": ["What usually happens when you save homework for 'later'?", "What helps you stop playing and come back to do your work?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Fun now can mean stress later if work piles up.", "A clear plan beats a vague 'I'll do it later.'", "Learning to do the hard thing first is a skill that pays off for years."]},
+        {"heading": "Key takeaway", "content": ["Doing the work before the fun means you get to enjoy the fun without anything weighing on you."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["responsibility", "homework", "self-control", "home"]
+  },
+  {
+    "id": "wwyd-055",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Dropped Grocery Item",
+    "scenario": "You're helping carry groceries and a glass jar of pasta sauce slips from the bag and shatters on the kitchen floor. Sauce and glass are everywhere, and your parent is in the other room and didn't see.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Call your parent right away because of the broken glass", "outcome": "Broken glass can cut you, so getting a grown-up to help clean it safely is the smart move, not something to hide."},
+      {"id": "b", "text": "Try to clean up all the glass and sauce by yourself quickly", "outcome": "You mean well, but picking up broken glass with your hands can hurt you, so this is a job to do with a grown-up's help."},
+      {"id": "c", "text": "Stay still, tell your parent, and keep pets away from the glass", "outcome": "Great thinking, since staying calm and keeping pets or little kids away from the sharp mess prevents anyone from getting hurt."}
+    ],
+    "followUpQuestions": ["When is it better to get help than to fix something yourself?", "How can you carry breakable things more safely next time?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Some messes, like broken glass, have a safety risk.", "Accidents while helping are not the same as being careless.", "Knowing when to ask for help is a sign of good judgment, not weakness."]},
+        {"heading": "Key takeaway", "content": ["When a mess could hurt someone, the brave and smart move is to get help, not to hide it or rush in alone."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["safety", "accidents", "home", "responsibility"]
+  },
+  {
+    "id": "wwyd-056",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Overflowing Allowance",
+    "scenario": "You've been saving your allowance for weeks to buy a cool toy you've wanted. At the store, you see it costs a bit more than you have, but there's also a smaller version you can afford right now.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Buy the smaller version now so you have something today", "outcome": "You get a toy right away, though sometimes the thing you really wanted feels more satisfying when you wait and save a bit longer."},
+      {"id": "b", "text": "Wait and keep saving for the one you really want", "outcome": "Waiting is hard, but getting exactly what you saved for often feels better and teaches you that patience pays off."},
+      {"id": "c", "text": "Ask a parent to lend you the extra few dollars", "outcome": "Borrowing can get you the toy today, but remember a loan has to be paid back, so it's really spending money you don't have yet."}
+    ],
+    "followUpQuestions": ["Is it better to get something small now or wait for something bigger?", "How does it feel to buy something you saved up a long time for?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Waiting for something you really want can make it more rewarding.", "Settling for less now sometimes leads to wishing you'd waited.", "Borrowing money means owing it back later."]},
+        {"heading": "Key takeaway", "content": ["Patience with money often means ending up with what you truly wanted instead of a quick substitute."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["money", "patience", "saving", "around-town"]
+  },
+  {
+    "id": "wwyd-057",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "Someone Jumped the Line",
+    "scenario": "You've been waiting patiently in line at the ice cream truck, and you're finally near the front. A bigger kid steps right in front of you and starts ordering, acting like you're not even there.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Politely say 'Excuse me, I was in line first'", "outcome": "Speaking up calmly stands up for yourself and the other kids waiting, and often the person steps back without a fuss."},
+      {"id": "b", "text": "Say nothing and let them go ahead", "outcome": "You avoid any awkwardness, but it's also okay to kindly stand up for your spot, since you waited your turn fairly."},
+      {"id": "c", "text": "Tell a nearby grown-up that someone cut in line", "outcome": "Getting an adult can help if the kid is much bigger or you feel uneasy, though a simple polite reminder often works on its own."}
+    ],
+    "followUpQuestions": ["How do you feel when someone cuts in front of you?", "What's a calm way to stand up for yourself?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Standing up for yourself can be calm and polite.", "Fairness means everyone waits their turn.", "It's okay to get help if you feel unsafe speaking up alone."]},
+        {"heading": "Key takeaway", "content": ["You can stand up for yourself with calm, polite words instead of staying silent or getting angry."]}
+      ]
+    },
+    "difficulty": "easy",
+    "tags": ["fairness", "assertiveness", "around-town", "patience"]
+  },
+  {
+    "id": "wwyd-058",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Messy Shared Room",
+    "scenario": "You share a room with your sibling, and it's gotten really messy. Most of the mess on the floor is actually your sibling's stuff, but your parent walks in and tells you to clean the whole room before dinner.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Ask your sibling to help since a lot of it is theirs", "outcome": "Getting them to pitch in is fair and faster, and it avoids the resentment of cleaning up a mess that isn't mostly yours."},
+      {"id": "b", "text": "Clean up only your own things and leave the rest", "outcome": "You handle your share, which is fair, though your parent asked for the whole room, so it helps to explain your plan rather than just leaving it."},
+      {"id": "c", "text": "Clean the whole room yourself without saying anything", "outcome": "The room gets clean and you avoid an argument, but it's also okay to speak up so the work gets shared fairly next time."}
+    ],
+    "followUpQuestions": ["What feels unfair about cleaning up someone else's mess?", "How could you and your sibling split chores more fairly?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Shared spaces usually mean shared responsibility.", "It's okay to speak up about fairness, calmly.", "Sometimes getting the job done matters, and sometimes it's worth sorting out who does what."]},
+        {"heading": "Key takeaway", "content": ["It's fair to ask others to clean up their own share instead of silently taking on all the work."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["fairness", "chores", "siblings", "home"]
+  },
+  {
+    "id": "wwyd-059",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Neighbor's Runaway Dog",
+    "scenario": "You're playing in your front yard when you see your neighbor's dog, who usually stays in their yard, trotting down the sidewalk alone with no leash. The dog is friendly and knows you, but there's a busy road at the end of the street.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Run inside and tell a grown-up right away", "outcome": "A grown-up can safely catch the dog or call the neighbor, which is the safest way to help without you running toward the busy road."},
+      {"id": "b", "text": "Chase the dog yourself to catch it before it reaches the road", "outcome": "You want to save the dog, but chasing can scare it toward the traffic, and running near a busy road is dangerous for you too."},
+      {"id": "c", "text": "Calmly call the dog's name and knock on the neighbor's door", "outcome": "Staying calm so you don't spook the dog is smart, and alerting the owner quickly gets the right person on it."}
+    ],
+    "followUpQuestions": ["Why might chasing a scared animal make things worse?", "How can you help in an emergency without putting yourself in danger?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Wanting to help an animal is kind, but your safety comes first.", "A busy road is a real danger for both the dog and you.", "Getting a grown-up often solves the problem faster and safer."]},
+        {"heading": "Key takeaway", "content": ["Helping in an emergency means staying safe yourself and getting a grown-up, not rushing into danger."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["safety", "animals", "around-town", "helping"]
+  },
+  {
+    "id": "wwyd-060",
+    "collectionId": "what-would-you-do",
+    "category": "Everyday Life",
+    "title": "The Tempting Shortcut",
+    "scenario": "You're walking home from a friend's house and you're running a little late for the time your parents said to be home. There's a shortcut through an alley you've never taken before that would save you a few minutes, or you can stick to the usual longer route.",
+    "question": "What would you do?",
+    "choices": [
+      {"id": "a", "text": "Stick to your usual route even if it takes a bit longer", "outcome": "You might be a couple minutes later, but staying on the path your parents know keeps you safe and predictable if they come looking."},
+      {"id": "b", "text": "Take the unfamiliar alley shortcut to save time", "outcome": "Saving a few minutes is tempting, but a route no one knows you're taking is exactly the kind of risk safety habits are meant to avoid."},
+      {"id": "c", "text": "Call or text a parent to say you're running a few minutes late", "outcome": "A quick heads-up takes the pressure off the clock, so you don't feel you need a risky shortcut just to beat the time."}
+    ],
+    "followUpQuestions": ["Why do your parents like to know the route you take home?", "Is saving a few minutes worth taking an unknown path?"],
+    "guide": {
+      "sections": [
+        {"heading": "Things to think about", "content": ["Being a little late is usually less serious than taking an unsafe shortcut.", "Letting someone know you're running late removes the pressure to rush.", "Sticking to known routes helps people find you if needed."]},
+        {"heading": "Key takeaway", "content": ["A few minutes saved is never worth an unsafe choice, and a quick message home takes away the rush."]}
+      ]
+    },
+    "difficulty": "medium",
+    "tags": ["safety", "honesty", "around-town", "judgment"]
+  }
+]

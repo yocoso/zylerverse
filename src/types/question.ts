@@ -12,14 +12,27 @@ export interface Guide {
   sections: GuideSection[];
 }
 
+/**
+ * A pickable option for choice-based questions. There is usually no single
+ * "right" answer — `outcome` honestly describes what might happen or what to
+ * think about if this choice is made.
+ */
+export interface Choice {
+  id: string;
+  text: string;
+  outcome: string;
+}
+
 export interface Question {
   id: string;
   collectionId: string;
   category: string;
   title: string;
-  /** Present for scenario-based collections (e.g. Social Thinking). */
+  /** Present for scenario-based collections. */
   scenario?: string;
   question: string;
+  /** Present for choice-based questions — the child picks one to see its outcome. */
+  choices?: Choice[];
   followUpQuestions?: string[];
   guide: Guide;
   difficulty?: Difficulty;
