@@ -4,8 +4,9 @@ import type { Choice, Question } from "../types/question";
 import { getCollection } from "../data/collections";
 import { useProgress } from "../hooks/ProgressContext";
 import { useCollectionNav } from "../hooks/useCollectionNav";
+import { useSpeech } from "../hooks/useSpeech";
 import GuidePanel from "./GuideReveal";
-import { Bulb, Check, Heart, Shuffle } from "./icons";
+import { Bulb, Check, Heart, Shuffle, Speaker, StopIcon } from "./icons";
 
 const ACCENT: Record<string, { text: string; bg: string; border: string; soft: string }> = {
   social: { text: "text-social", bg: "bg-social", border: "border-social", soft: "bg-social/10" },
@@ -109,11 +110,24 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
   const accent = ACCENT[collection?.accent ?? "brand"];
   const { isDiscussed, toggleDiscussed, isFavorite, toggleFavorite } = useProgress();
   const { goToRandom } = useCollectionNav(question.collectionId);
+  const { supported: speechSupported, speaking, speak, stop } = useSpeech();
   const [showGuide, setShowGuide] = useState(false);
 
   const discussed = isDiscussed(question.id);
   const favorite = isFavorite(question.id);
   const activeAccent = `${accent.border} ${accent.soft} ${accent.text}`;
+
+  // Text read aloud by the Listen button: scenario, question, then the options.
+  const readAloudText = [
+    question.scenario,
+    question.question,
+    question.choices?.length
+      ? "Your choices are. " +
+        question.choices.map((c) => `Option ${c.id.toUpperCase()}. ${c.text}`).join(" ")
+      : ""
+  ]
+    .filter(Boolean)
+    .join(" ");
 
   return (
     <div className="space-y-5 px-4 py-5">
@@ -153,8 +167,18 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
         )}
       </div>
 
-      {/* Optional small actions: ideas, mark as talked about, favorite */}
+      {/* Optional small actions: listen, ideas, mark as talked about, favorite */}
       <div className="flex items-center gap-2.5">
+        {speechSupported && (
+          <IconToggle
+            active={speaking}
+            activeClass={activeAccent}
+            label={speaking ? "Stop reading" : "Read aloud"}
+            onClick={() => (speaking ? stop() : speak(readAloudText))}
+          >
+            {speaking ? <StopIcon width={20} height={20} /> : <Speaker width={20} height={20} />}
+          </IconToggle>
+        )}
         <IconToggle
           active={showGuide}
           activeClass={activeAccent}
