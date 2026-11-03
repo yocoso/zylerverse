@@ -3,12 +3,14 @@ import { COLLECTIONS } from "../data/collections";
 import { getQuestionsByCollection } from "../data";
 import { useProgress } from "../hooks/ProgressContext";
 import { exportProgress, importProgress } from "../lib/storage";
+import { getAutoRead, setAutoRead } from "../lib/prefs";
 import AppBar from "../components/AppBar";
 
 export default function Settings() {
   const { progress, discussedSet, favoriteSet, resetCollection, replaceProgress } = useProgress();
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<string | null>(null);
+  const [autoRead, setAutoReadState] = useState<boolean>(() => getAutoRead());
 
   const handleExport = () => {
     const blob = new Blob([exportProgress(progress)], { type: "application/json" });
@@ -51,6 +53,39 @@ export default function Settings() {
             {message}
           </p>
         )}
+
+        {/* Reading */}
+        <section className="card p-5">
+          <h2 className="mb-1 text-base font-bold">Reading</h2>
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="font-medium">Read new questions aloud</p>
+              <p className="text-sm text-muted">
+                Automatically reads each new card. Finishing a card also marks it as read.
+              </p>
+            </div>
+            <button
+              type="button"
+              role="switch"
+              aria-checked={autoRead}
+              aria-label="Read new questions aloud"
+              onClick={() => {
+                const next = !autoRead;
+                setAutoRead(next);
+                setAutoReadState(next);
+              }}
+              className={`relative h-7 w-12 shrink-0 rounded-full transition ${
+                autoRead ? "bg-brand-500" : "bg-line"
+              }`}
+            >
+              <span
+                className={`absolute top-1 h-5 w-5 rounded-full bg-white shadow transition-all ${
+                  autoRead ? "left-6" : "left-1"
+                }`}
+              />
+            </button>
+          </div>
+        </section>
 
         {/* Per-collection reset */}
         <section className="card p-5">

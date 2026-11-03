@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { ReactNode } from "react";
 import type { Choice, Question } from "../types/question";
 import { getCollection } from "../data/collections";
 import { useProgress } from "../hooks/ProgressContext";
 import { useCollectionNav } from "../hooks/useCollectionNav";
 import { useSpeech } from "../hooks/useSpeech";
+import { getAutoRead } from "../lib/prefs";
 import GuidePanel from "./GuideReveal";
 import { Bulb, Check, Heart, Shuffle, Speaker, StopIcon } from "./icons";
 
@@ -108,7 +109,7 @@ interface QuestionDetailProps {
 export default function QuestionDetail({ question }: QuestionDetailProps) {
   const collection = getCollection(question.collectionId);
   const accent = ACCENT[collection?.accent ?? "brand"];
-  const { isDiscussed, toggleDiscussed, isFavorite, toggleFavorite } = useProgress();
+  const { isDiscussed, toggleDiscussed, setDiscussed, isFavorite, toggleFavorite } = useProgress();
   const { goToRandom } = useCollectionNav(question.collectionId);
   const { supported: speechSupported, speaking, speak, stop } = useSpeech();
   const [showGuide, setShowGuide] = useState(false);
@@ -117,7 +118,7 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
   const favorite = isFavorite(question.id);
   const activeAccent = `${accent.border} ${accent.soft} ${accent.text}`;
 
-  // Text read aloud by the Listen button: scenario, question, then the options.
+  // Text read aloud: scenario, question, then the options.
   const readAloudText = [
     question.scenario,
     question.question,
@@ -128,6 +129,18 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
   ]
     .filter(Boolean)
     .join(" ");
+
+  // Reading a question to the end marks it as discussed so it won't come up
+  // again — but only on a natural finish (not if stopped or navigated away).
+  const readAloud = () => speak(readAloudText, () => setDiscussed(question.id, true));
+
+  // Auto-read each new question on open (if enabled). On iOS this may be blocked
+  // until the first manual tap of Listen in the session. Runs once per question
+  // because the parent remounts QuestionDetail per id.
+  useEffect(() => {
+    if (speechSupported && getAutoRead()) readAloud();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="space-y-5 px-4 py-5">
@@ -167,18 +180,23 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
         )}
       </div>
 
-      {/* Optional small actions: listen, ideas, mark as talked about, favorite */}
+      {/* Prominent read-aloud button (easy tap target for young listeners) */}
+      {speechSupported && (
+        <button
+          type="button"
+          onClick={() => (speaking ? stop() : readAloud())}
+          aria-pressed={speaking}
+          className={`btn w-full text-lg ${
+            speaking ? `${accent.soft} ${accent.text} border ${accent.border}` : "btn-secondary"
+          }`}
+        >
+          {speaking ? <StopIcon width={22} height={22} /> : <Speaker width={22} height={22} />}
+          {speaking ? "Stop" : "Listen"}
+        </button>
+      )}
+
+      {/* Optional small actions: ideas, mark as talked about, favorite */}
       <div className="flex items-center gap-2.5">
-        {speechSupported && (
-          <IconToggle
-            active={speaking}
-            activeClass={activeAccent}
-            label={speaking ? "Stop reading" : "Read aloud"}
-            onClick={() => (speaking ? stop() : speak(readAloudText))}
-          >
-            {speaking ? <StopIcon width={20} height={20} /> : <Speaker width={20} height={20} />}
-          </IconToggle>
-        )}
         <IconToggle
           active={showGuide}
           activeClass={activeAccent}
