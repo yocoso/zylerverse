@@ -47,13 +47,37 @@ function IconToggle({
 
 type Accent = { text: string; bg: string; border: string; soft: string };
 
+/** Small round speaker button to read a single piece of text aloud. */
+function PlayButton({ onClick, label }: { onClick: () => void; label: string }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-label={label}
+      title={label}
+      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-line bg-card text-muted transition hover:text-ink active:scale-95"
+    >
+      <Speaker width={17} height={17} />
+    </button>
+  );
+}
+
 /**
  * Choice picker for choice-based questions. The child taps an option to reveal
  * what might happen if they pick it. There's no rigid right/wrong — picking is
  * exploratory, and they can try different options. Selection is local state and
- * resets per question (QuestionDetail is remounted by id).
+ * resets per question (QuestionDetail is remounted by id). Each option also has
+ * its own speaker button to hear just that option.
  */
-function QuestionChoices({ choices, accent }: { choices: Choice[]; accent: Accent }) {
+function QuestionChoices({
+  choices,
+  accent,
+  onPlay
+}: {
+  choices: Choice[];
+  accent: Accent;
+  onPlay?: (text: string) => void;
+}) {
   const [selected, setSelected] = useState<string | null>(null);
 
   return (
@@ -64,23 +88,26 @@ function QuestionChoices({ choices, accent }: { choices: Choice[]; accent: Accen
           const isSel = selected === c.id;
           return (
             <div key={c.id}>
-              <button
-                type="button"
-                onClick={() => setSelected(isSel ? null : c.id)}
-                aria-pressed={isSel}
-                className={`flex w-full items-start gap-2.5 rounded-xl2 border p-3.5 text-left transition active:scale-[0.99] ${
-                  isSel ? `${accent.border} ${accent.soft}` : "border-line bg-card hover:border-brand-200"
-                }`}
-              >
-                <span
-                  className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
-                    isSel ? `${accent.bg} text-white` : "bg-paper text-muted"
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setSelected(isSel ? null : c.id)}
+                  aria-pressed={isSel}
+                  className={`flex flex-1 items-start gap-2.5 rounded-xl2 border p-3.5 text-left transition active:scale-[0.99] ${
+                    isSel ? `${accent.border} ${accent.soft}` : "border-line bg-card hover:border-brand-200"
                   }`}
                 >
-                  {c.id.toUpperCase()}
-                </span>
-                <span className="font-medium leading-snug text-ink">{c.text}</span>
-              </button>
+                  <span
+                    className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-sm font-bold ${
+                      isSel ? `${accent.bg} text-white` : "bg-paper text-muted"
+                    }`}
+                  >
+                    {c.id.toUpperCase()}
+                  </span>
+                  <span className="font-medium leading-snug text-ink">{c.text}</span>
+                </button>
+                {onPlay && <PlayButton onClick={() => onPlay(c.text)} label={`Read option ${c.id.toUpperCase()}`} />}
+              </div>
               {isSel && (
                 <p className="ml-9 mt-1.5 rounded-xl border border-line bg-paper/70 p-3 text-[15px] leading-relaxed text-ink">
                   {c.outcome}
@@ -118,21 +145,22 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
   const favorite = isFavorite(question.id);
   const activeAccent = `${accent.border} ${accent.soft} ${accent.text}`;
 
-  // Text read aloud: scenario, question, then the options.
-  const readAloudText = [
+  // Read aloud as separate parts so there is a clear pause between the scenario,
+  // the question, and each option.
+  const readParts = [
     question.scenario,
     question.question,
-    question.choices?.length
-      ? "Your choices are. " +
-        question.choices.map((c) => `Option ${c.id.toUpperCase()}. ${c.text}`).join(" ")
-      : ""
-  ]
-    .filter(Boolean)
-    .join(" ");
+    ...(question.choices?.length
+      ? ["Your choices are.", ...question.choices.map((c) => `Option ${c.id.toUpperCase()}. ${c.text}`)]
+      : [])
+  ].filter(Boolean) as string[];
 
-  // Reading a question to the end marks it as discussed so it won't come up
-  // again — but only on a natural finish (not if stopped or navigated away).
-  const readAloud = () => speak(readAloudText, () => setDiscussed(question.id, true));
+  // Reading a whole question to the end marks it as discussed so it won't come
+  // up again — but only on a natural finish (not if stopped or navigated away).
+  const readAloud = () => speak(readParts, () => setDiscussed(question.id, true));
+
+  // Play one piece of text on its own (no marking) — used by the per-item buttons.
+  const playOne = speechSupported ? (text: string) => speak(text) : undefined;
 
   // Auto-read each new question on open (if enabled). On iOS this may be blocked
   // until the first manual tap of Listen in the session. Runs once per question
@@ -159,10 +187,18 @@ export default function QuestionDetail({ question }: QuestionDetailProps) {
           </p>
         )}
 
-        <p className="mt-4 text-xl font-semibold leading-relaxed text-ink">{question.question}</p>
+        <div className="mt-4 flex items-start gap-2">
+          <p className="flex-1 text-xl font-semibold leading-relaxed text-ink">{question.question}</p>
+          {playOne && (
+            <PlayButton
+              onClick={() => speak([question.scenario, question.question].filter(Boolean) as string[])}
+              label="Read the question"
+            />
+          )}
+        </div>
 
         {question.choices && question.choices.length > 0 && (
-          <QuestionChoices choices={question.choices} accent={accent} />
+          <QuestionChoices choices={question.choices} accent={accent} onPlay={playOne} />
         )}
 
         {question.followUpQuestions && question.followUpQuestions.length > 0 && (
